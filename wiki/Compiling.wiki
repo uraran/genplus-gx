@@ -14,10 +14,11 @@ However, I would be grateful if you take the following points in consideration:
 
 === Instructions ===
 
- # download & install the last version of [https://sourceforge.net/project/showfiles.php?group_id=114505&package_id=124208 DevkitPPC] on your computer. Windows user can also run the [https://sourceforge.net/project/showfiles.php?group_id=114505&package_id=160396 AutoInstaller] version
- # download & install the last version of [https://sourceforge.net/project/showfiles.php?group_id=114505&package_id=126925 libogc]. The install directory should be in *C:/devkitpro/libogc*. You can also grab an dcompile the current source from [http://devkitpro.cvs.sourceforge.net/devkitpro/libogc/ CVS repository]
- # download & install the last version of [https://sourceforge.net/project/showfiles.php?group_id=114505&package_id=197264 libfat]. The install directory should be in *C:/devkitpro/libfat*. You can also grab and compile the current source from [http://devkitpro.cvs.sourceforge.net/devkitpro/libfat/ CVS repository]
+ # download & install the last version of [https://sourceforge.net/project/showfiles.php?group_id=114505&package_id=124208 DevkitPPC] on your computer. Windows user can directly run the [https://sourceforge.net/project/showfiles.php?group_id=114505&package_id=160396 AutoInstaller] version
+ # download & install the last version of [https://sourceforge.net/project/showfiles.php?group_id=114505&package_id=126925 libogc]. The install directory should be in *C:/devkitpro/libogc*. You can also get and compile the current source from [http://devkitpro.cvs.sourceforge.net/devkitpro/libogc/ CVS repository]
+ # download & install the last version of [https://sourceforge.net/project/showfiles.php?group_id=114505&package_id=197264 libfat]. The install directory should be in *C:/devkitpro/libfat*. You can also get and compile the current source from [http://devkitpro.cvs.sourceforge.net/devkitpro/libfat/ CVS repository]
  # get the current source code of [http://code.google.com/p/genplus-gx/source/checkout Genesis Plus] via SVN command line
  # launch msys command tool(installed with devkitpro), go inside */genplus-gx/trunk* directory and type compile_all.bat
+
 
 To get this working, you also need to be familiar with development environment. You can also ask people on [http://www.wiibrew.org wiibrew] or [http://www.tehskeen.com/forums/showthread.php?t=2968 tehskeen's forum].
