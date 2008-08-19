@@ -21,7 +21,7 @@
  * [http://www.spritesmind.net/_GenDev/forum/ Spritesmind] & [http://www.smspower.org/ SMS Power] forums members for their technical help_
 
 
-=== Gamecube/Wii porting ===
+=== Gamecube/Wii port ===
 
  * original Gamecube's port by softdev, honkeykong & markcube
  * additional features and Wii port by Eke-Eke
