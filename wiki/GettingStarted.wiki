@@ -8,9 +8,9 @@ Once you have downloaded and decompressed the archive, you get two versions of t
 
  * genplus_wii.dol is the version running in Wii mode. This can only be loaded on a Wii and provide extra features such as support for up to 8players and wiimote 
 
-
-
-
+  
+  
+  
 == How to load the emulator ==
 
 === on the Wii ===
@@ -18,6 +18,8 @@ Once you have downloaded and decompressed the archive, you get two versions of t
 The easiest way to load & run the emulator on the Wii is to install the [http://hbc.hackmii.com/ Homebrew Channel].
 
 Rename genplus_wii.dol as boot.dol and put it along with meta.xml & icon.png on your sdcard, in the /apps/genplus directory.
+
+http://wiibrew.org/w/images/thumb/f/fb/Homebrew_channel_logo.png/200px-Homebrew_channel_logo.png
 
 There are other ways to run .dol files on the Wii like building a dedicated channel, running the [http://wiibrew.org/wiki/Twilight_Hack Twilight Hack] or using other DOL loader.
 
@@ -32,7 +34,10 @@ There are several [http://www.gc-linux.org/wiki/Booting_GameCube_Linux methods] 
  * via a [http://www.gc-linux.org/wiki/Building_a_Bootable_Disc bootable disc]
  * via [http://www.gc-linux.org/wiki/PSOload streaming]
 
+http://modyawii.wiinewz.com/images/sdcard.jpg
+
 More detailled informations [http://modyawii.wiinewz.com/ here] and on [http://www.tehskeen.com/modules.php?name=skeenews tehskeen]'s forums.
+
 
 
 == How to use the emulator ==
@@ -42,9 +47,11 @@ This is a Sega Genesis/Megadrive emulator: it requires suitable ROM images in th
 ROM files need to be loaded first: you can either load them from a DVD or from SDCARD. On the Gamecube, a modchip is required for DVD access and a SD-adapter is also required for SDCARD support.
 
 === from SDCARD ===
+
 You should create a directory named */genplus* at the root of your SDCARD. Inside this directory, create a subdirectory named */roms* and place your roms inside that directory. You can create as many subdirectories as you want and reduce the number of roms per directory to improve loading times. Also note that if the /roms directory does not exist, the program will let you browse from the root of the SDCARD.
 
 === from DVD ===
+
 The most important thing is that the DVD should be compliant with the ISO9660 format. Otherwise, ROM files can be put anywhere but again, it is better to use subdirectories and keep a limited amount of files in each directory.
 
-Wii user will need to install the [http://hackmii.com/2008/08/libdi-and-the-dvdx-installer/ DI layer interface] first and burn suitable DVD. Contrary to Gamecube users, a  modchip is not required to load from DVD.
+Wii user will need to install the [http://hackmii.com/2008/08/libdi-and-the-dvdx-installer/ DI layer interface] first and burn a suitable DVD. Contrary to Gamecube users, a  modchip is not required to load from DVD.
