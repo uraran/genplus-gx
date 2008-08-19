@@ -1,12 +1,11 @@
 #labels Featured
-=== Introduction ===
 
 Genesis Plus's compatibility should be quite high, let's say 99.9% of known roms are working. The only unsupported ones are a few unlicensed/pirates games which require some custom cartridge hardware. 
 
 I personnaly tested many games to be sure they all work like on original hardware, without any graphical glitches or lockup, however, feel free to add comments if you found a specific game not running properly with this emulator.
 
 
-=== Non-Working Games ===
+== Non-Working Games ==
 
  * Mulan (Unl): hangs after title screen
  * Pocket Monsters II (Unl): hangs on title screen
@@ -17,7 +16,7 @@ I personnaly tested many games to be sure they all work like on original hardwar
  * Pokemon Stadium (Unl): don't boot
  * Sonic Jam 6 (Unl): don't boot
 
-=== Working Games ===
+== Working Games ==
 
 
 all other games :-)
