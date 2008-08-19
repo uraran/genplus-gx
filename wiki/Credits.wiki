@@ -1,5 +1,5 @@
+#summary this project would not have been possible without these people
 #labels Featured
-#this project would not have been possible without these people
 
 === Genesis Plus core ===
 
