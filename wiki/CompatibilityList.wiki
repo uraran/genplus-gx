@@ -1,8 +1,7 @@
 #labels Featured
+Genesis Plus's compatibility should be quite high, let's say 99.9% of known roms are working without any graphical glitches or lockup. The only unsupported ones are a few unlicensed/pirates games which require some custom cartridge hardware currently unemulated. 
 
-Genesis Plus's compatibility should be quite high, let's say 99.9% of known roms are working. The only unsupported ones are a few unlicensed/pirates games which require some custom cartridge hardware. 
-
-I personnaly tested many games to be sure they all work like on original hardware, without any graphical glitches or lockup, however, feel free to add comments if you found a specific game not running properly with this emulator.
+I personnaly tested many games to be sure they all work like on original hardware, however, feel free to add comments if you found a specific game not running properly with this emulator.
 
 
 == Non-Working Games ==
@@ -17,6 +16,5 @@ I personnaly tested many games to be sure they all work like on original hardwar
  * Sonic Jam 6 (Unl): don't boot
 
 == Working Games ==
-
 
 all other games :-)
