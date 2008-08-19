@@ -30,7 +30,8 @@
  * additional features and Wii port by Eke-Eke
  * graphical interface and icon design by [http://www.tehskeen.net brakken]
  * [http://chishm.drunkencoders.com/libfat/ libFAT] by Chism , ported to libogc by Sven Peter (svpe) & wintermute
- * [http://www.wiiuse.net/ wiiuse] library by Michael Laforest (para), ported to libogc by shagkur 
+ * [http://www.wiiuse.net/ wiiuse] library by Michael Laforest (para), ported to libogc by shagkur
+ * [http://hackmii.com/2008/08/libdi-and-the-dvdx-installer/ libDI] by Erant
  * [http://www.devkitpro.org/category/libogc/ libOGC] by winterMute, shagkur and all contributors
  * [http://www.devkitpro.org/ devkitpro] & [http://www.devkitpro.org/category/devkitppc/ devkitPPC] by winterMute_
 
