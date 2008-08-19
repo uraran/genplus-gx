@@ -4,7 +4,7 @@ Genesis Plus first goal is complete & accurate emulation of the Sega Genesis/Meg
 The original emulation core from [http://cgfm2.emuviews.com/ Charles Mac Donald] has been slightly modified to improve overall accuracy and therefore compatibility, as well as adding emulation support for various peripherals and extra hardware.
 
 
-=== Accurate & full speed Sega Genesis/Megadrive emulation ===
+== Accurate & full speed Sega Genesis/Megadrive emulation ==
 
  * NTSC (60Hz) & PAL (50Hz) timings support
  * cycle-accurate CPUs synchronization (68000, Z80, YM2612, SN76489)
@@ -17,7 +17,7 @@ The original emulation core from [http://cgfm2.emuviews.com/ Charles Mac Donald]
 
 http://gxdev.files.wordpress.com/2007/12/street.gif?w=320&h=240
 
-=== Support for various input peripherals ===
+== Support for various input peripherals ==
  * 3-buttons & 6-buttons controllers
  * Sega TeamPlayer & EA 4-Way Play multitap adapters
  * Sega Menacer & Konami Justifier lightguns
@@ -25,7 +25,7 @@ http://gxdev.files.wordpress.com/2007/12/street.gif?w=320&h=240
 
 http://www.puntodepartida.com/imagenes/maquinatiempo/megadrive/menacer.jpg
 
-=== Support for various cartridge internal hardwares ===
+== Support for various cartridge internal hardwares ==
  * SVP DSP (Virtua Racing)
  * J-Cart
  * backup RAM (parallel SRAM/FRAM and serial EEPROM)
@@ -36,7 +36,7 @@ http://www.puntodepartida.com/imagenes/maquinatiempo/megadrive/menacer.jpg
 
 http://gxdev.wordpress.com/files/2008/08/vracing.png
 
-=== Gamecube/Wii extra features ===
+== Gamecube/Wii extra features ==
 
  * Stereo Sound (@48 kHz)
  * 1~4 Players support
@@ -50,6 +50,6 @@ http://gxdev.wordpress.com/files/2008/08/vracing.png
 
 http://gxdev.files.wordpress.com/2008/08/wiimote.jpg?w=240&h=241
 
-=== Wii-only features ===
+== Wii-only features ==
  * up to 8 Players support
  * Wiimote, Nunchuk & Classic Controller support
