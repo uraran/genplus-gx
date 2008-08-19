@@ -1,7 +1,7 @@
 #summary this project would not have been possible without these people
 #labels Featured
 
-=== Genesis Plus core ===
+== Genesis Plus core ==
 
  * original emulation code by [http://cgfm2.emuviews.com/ Charles Mac Donald]
  * additional code (core, extra features, compatibility fixes,…) by [http://gxdev.wordpress.com/ Eke-Eke]
@@ -21,7 +21,7 @@
  * [http://www.spritesmind.net/_GenDev/forum/ Spritesmind] & [http://www.smspower.org/ SMS Power] forums members for their technical help_
 
 
-=== Gamecube/Wii port ===
+== Gamecube/Wii port ==
 
  * original Gamecube's port by softdev, honkeykong & markcube
  * additional features and Wii port by Eke-Eke
