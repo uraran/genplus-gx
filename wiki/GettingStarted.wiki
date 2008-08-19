@@ -1,3 +1,4 @@
+#labels Featured
 == Pick a version ==
 
 Gamecube and Wii applications generally come in the form of .dol files.
