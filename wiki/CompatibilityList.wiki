@@ -1,3 +1,4 @@
+#labels Featured
 === Introduction ===
 
 Genesis Plus's compatibility should be quite high, let's say 99.9% of known roms are working. The only unsupported ones are a few unlicensed/pirates games which require some custom cartridge hardware. 
