@@ -8,7 +8,9 @@
  * Z80, 68000 and YM2612 cores by the [http://mamedev.org/ M.A.M.E] team
  * alternate YM2612 core by [http://gens.consolemul.com/ Stef]
  * SN76489 core by [http://www.smspower.org/maxim/ Maxim]
- * SVP core by [http://notaz.gp2x.de/svp.php Notaz]_
+ * SVP core by [http://notaz.gp2x.de/svp.php Notaz]
+ * [http://www.mega-nerd.com/SRC/ libsamplerate ] by Erik de Castro Lopo
+ * [http://zlib.net/ zlib] by Jean-Loup Gailly and Mark Adler_
 
 
 ==== additional thanks to ====
