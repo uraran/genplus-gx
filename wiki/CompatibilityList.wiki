@@ -1,31 +1,22 @@
-= Introduction =
+=== Introduction ===
 
-Genesis Plus's compatibility should be quite high, let's say 99.9% of known roms are working, the only unsupported ones being a few unlicensed/pirates games which need unemulated custom cartridge hardware.
+Genesis Plus's compatibility should be quite high, let's say 99.9% of known roms are working. The only unsupported ones are a few unlicensed/pirates games which require some custom cartridge hardware. 
 
-I personnaly tested many games to be sure they all work like on original hardware, without any graphical glitches or lockup but feel free to add comments if you found a specific game not running properly with this emulator.
-
-
-= Non-Working Games =
+I personnaly tested many games to be sure they all work like on original hardware, without any graphical glitches or lockup, however, feel free to add comments if you found a specific game not running properly with this emulator.
 
 
-Mulan (Unl): hangs after title screen
+=== Non-Working Games ===
 
-Pocket Monsters II (Unl): hangs on title screen
+ * Mulan (Unl): hangs after title screen
+ * Pocket Monsters II (Unl): hangs on title screen
+ * Super King Kong 99 (Unl): don't boot
+ * Top Fighter 2000 MK VIII (Unl): don't boot
+ * Top Shooter (Unl): no input
+ * Chinese Fighter III (Unl): hangs on character selection screen
+ * Pokemon Stadium (Unl): don't boot
+ * Sonic Jam 6 (Unl): don't boot
 
-Super King Kong 99 (Unl): don't boot
-
-Top Fighter 2000 MK VIII (Unl): don't boot
-
-Top Shooter (Unl): no input
-
-Chinese Fighter III (Unl): hangs on character selection screen
-
-Pokemon Stadium (Unl): don't boot
-
-Sonic Jam 6 (Unl): don't boot
-
-
-= Working Games =
+=== Working Games ===
 
 
 all other games :-)
