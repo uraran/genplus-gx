@@ -18,7 +18,7 @@ Once you have downloaded and decompressed the archive, you get two versions of t
 
 The easiest way to load & run the emulator on the Wii is to install the [http://hbc.hackmii.com/ Homebrew Channel].
 
-Rename genplus_wii.dol as boot.dol and put it along with meta.xml & icon.png on your sdcard, in the /apps/genplus directory.
+Once you are done, rename genplus_wii.dol as boot.dol and put it along with meta.xml & icon.png on your sdcard, in the /apps/genplus directory.
 
 http://wiibrew.org/w/images/thumb/f/fb/Homebrew_channel_logo.png/200px-Homebrew_channel_logo.png
 
