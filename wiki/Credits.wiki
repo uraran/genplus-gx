@@ -36,5 +36,5 @@
 ==== additional thanks to ====
  * softdev for all his great work and inspiration
  * [http://debugmo.de/ tmbinc] for having made Gamecube homebrew a reality
- * [http://hackmii.com/ Twiizer team] for all the work they are doing for Wii homebrew.
+ * [http://hackmii.com/ Twiizer team] for all the work they are doing for [http:/:www.wiibrew.org Wii homebrew]
  * [http://www.tehskeen.com Tehskeen's] forum members for their feedback and support_
