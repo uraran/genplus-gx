@@ -1,4 +1,5 @@
-=== Disclaimer ===
+#labels Featured
+== Disclaimer ==
 
 You might want to compile the sourcecode yourself from SVN for various reasons:
 
@@ -6,13 +7,13 @@ You might want to compile the sourcecode yourself from SVN for various reasons:
  * to compile the sourcecode with libsamplerate BEST convertor (see genplus manual)
  * to implement your own features.
 
-However, I would be grateful if you take the following points in consideration:
+However, I would be grateful if you take the *following points* in consideration:
 
  # current SVN build should always be considered as unstable and work in progress, you can get it from SVN and compile a binary but don't complain about bugs and don't make public release.
  # you can modify the sourcecode as you want but in order to keep this project clean and structured, I would ask you to keep ANY private build for yourself and avoid public or mass-distribution of derivative works. If you think the modification you made should be implemented in an official release, please contact me and I would eventually add them and obviously give all the credits to you.
 
 
-=== Instructions ===
+== Instructions ==
 
  # download & install the last version of [https://sourceforge.net/project/showfiles.php?group_id=114505&package_id=124208 DevkitPPC] on your computer. Windows user can directly run the [https://sourceforge.net/project/showfiles.php?group_id=114505&package_id=160396 AutoInstaller] version
  # download & install the last version of [https://sourceforge.net/project/showfiles.php?group_id=114505&package_id=126925 libogc]. The install directory should be in *C:/devkitpro/libogc*. You can also get and compile the current source from [http://devkitpro.cvs.sourceforge.net/devkitpro/libogc/ CVS repository]
