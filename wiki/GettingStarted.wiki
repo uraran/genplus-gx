@@ -37,7 +37,7 @@ More detailled informations [http://modyawii.wiinewz.com/ here] and on [http://w
 
 == How to use the emulator ==
 
-This is a Sega Genesis/Megadrive emulators: it requires ROM images in the form of .bin or .smd files but .zip files are also supported (as long as they contain a proper ROM file).
+This is a Sega Genesis/Megadrive emulator: it requires suitable ROM images in the form of .bin or .smd files but .zip files are also supported (as long as they contain a proper ROM file).
 
 ROM files need to be loaded first: you can either load them from a DVD or from SDCARD. On the Gamecube, a modchip is required for DVD access and a SD-adapter is also required for SDCARD support.
 
