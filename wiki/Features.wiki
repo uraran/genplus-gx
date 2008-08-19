@@ -1,3 +1,4 @@
+#labels Featured
 Genesis Plus first goal is complete & accurate emulation of the Sega Genesis/Megadrive hardware.
 
 The original emulation core from [http://cgfm2.emuviews.com/ Charles Mac Donald] has been slightly modified to improve overall accuracy and therefore compatibility, as well as adding emulation support for various peripherals and extra hardware.
@@ -14,6 +15,7 @@ The original emulation core from [http://cgfm2.emuviews.com/ Charles Mac Donald]
  * TMSS BIOS support
  * PICO hardware support (experimental)
 
+http://gxdev.files.wordpress.com/2007/12/street.gif?w=320&h=240
 
 === Support for various input peripherals ===
  * 3-buttons & 6-buttons controllers
@@ -21,6 +23,7 @@ The original emulation core from [http://cgfm2.emuviews.com/ Charles Mac Donald]
  * Sega Menacer & Konami Justifier lightguns
  * Sega Mouse & Sega Mega Mouse
 
+http://www.puntodepartida.com/imagenes/maquinatiempo/megadrive/menacer.jpg
 
 === Support for various cartridge internal hardwares ===
  * SVP DSP (Virtua Racing)
@@ -31,6 +34,7 @@ The original emulation core from [http://cgfm2.emuviews.com/ Charles Mac Donald]
  * ROM mappers & copy protection devices used in many unlicensed/pirate cartridges
  * Game Genie codes
 
+http://gxdev.wordpress.com/files/2008/08/vracing.png
 
 === Gamecube/Wii extra features ===
 
@@ -44,6 +48,7 @@ The original emulation core from [http://cgfm2.emuviews.com/ Charles Mac Donald]
  * original video modes (240p/240i/288p/288i) support
  * interlaced (576i/480i) & progressive (480p) video modes support
 
+http://gxdev.files.wordpress.com/2008/08/wiimote.jpg?w=240&h=241
 
 === Wii-only features ===
  * up to 8 Players support
