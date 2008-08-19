@@ -17,6 +17,7 @@
  * [http://www.trzy.org/ Bart Trzynadlowski] for his documentation about SSFII mapper and 68000 undocumented behaviour
  * [http://haze.mameworld.info/ Haze] for having found and documented many unlicensed cartridges protections
  * Notaz & Stef for their help, the source code of their respective emulator, Picodrive and Gens, was also a great source of inspiration
+ * [http://aamirm.hacking-cult.org/ AamirM], author of Regen, for some good advices
  * Charles Mc Donald for his excellent documentation about the Sega Genesis hardware and for having designed such a great emulator
  * [http://www.spritesmind.net/_GenDev/forum/ Spritesmind] & [http://www.smspower.org/ SMS Power] forums members for their technical help_
 
