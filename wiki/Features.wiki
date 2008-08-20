@@ -25,7 +25,7 @@ http://gxdev.files.wordpress.com/2007/12/street.gif?w=320&h=240
 
 http://www.puntodepartida.com/imagenes/maquinatiempo/megadrive/menacer.jpg
 
-== Support for various cartridge internal hardwares ==
+== Support for various cartridge internal hardware ==
  * SVP DSP (Virtua Racing)
  * J-Cart
  * backup RAM (parallel SRAM/FRAM and serial EEPROM)
