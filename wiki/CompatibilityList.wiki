@@ -5,7 +5,7 @@ Genesis Plus's compatibility should be quite high, let's say 99.9% of known roms
 I personnaly tested many games to be sure they all work like on original hardware, however, feel free to add comments if you found a specific game not running properly with this emulator.
 
 
-On a side note, make sure you are always using good dumps, ROM files labelled as bad dump [b], hacked [h] or pirated [p] are generally known to cause problem (even on real hardware).
+On a side note, make sure you are always using good dumps, ROM files labelled as bad dump [[b]], hacked [[h]] or pirated [[p]] are generally known to cause problem (even on real hardware).
 
 
 == Non-Working Games ==
