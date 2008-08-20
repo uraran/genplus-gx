@@ -47,8 +47,9 @@ http://gxdev.wordpress.com/files/2008/08/vracing.png
  * original video modes (240p/240i/288p/288i) support
  * interlaced (576i/480i) & progressive (480p) video modes support
 
-http://gxdev.files.wordpress.com/2008/08/wiimote.jpg?w=240&h=241
 
 == Wii-only features ==
  * up to 8 Players support
  * Wiimote, Nunchuk & Classic Controller support
+
+http://gxdev.files.wordpress.com/2008/08/wiimote.jpg?w=240&h=241
