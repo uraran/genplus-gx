@@ -24,7 +24,7 @@ http://gxdev.files.wordpress.com/2007/12/street.gif?w=320&h=240
  * Sega Menacer & Konami Justifier lightguns
  * Sega Mouse & Sega Mega Mouse
 
-http://www.puntodepartida.com/imagenes/maquinatiempo/megadrive/menacer.jpg
+http://gxdev.wordpress.com/files/2008/08/menacer.jpg
 
 == Support for various cartridge internal hardware ==
  * SVP DSP (Virtua Racing)
