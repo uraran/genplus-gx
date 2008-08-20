@@ -19,7 +19,7 @@ http://gxdev.files.wordpress.com/2007/12/street.gif?w=320&h=240
 
 == Support for various input peripherals ==
  * 3-buttons & 6-buttons controllers
- * Sega TeamPlayer & EA 4-Way Play multitap adapters
+ * Sega Team Player & EA 4-Way Play multitap adapters
  * Sega Menacer & Konami Justifier lightguns
  * Sega Mouse & Sega Mega Mouse
 
@@ -40,8 +40,7 @@ http://gxdev.wordpress.com/files/2008/08/vracing.png
 
  * Stereo Sound (@48 kHz)
  * 1~4 Players support
- * SRAM and SaveState files (on MemoryCard & SDCard)
- * automatic SRAM/Savestate loading & saving
+ * automatic SRAM and Savestate files (on Memory Card & SD Card)
  * ROM internal information screen
  * support for zipped (.zip) and interleaved (.smd) roms
  * load roms from SDCard or DVD
