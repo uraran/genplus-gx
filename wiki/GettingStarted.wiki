@@ -1,5 +1,5 @@
 #labels Featured
-== Pick a version ==
+== Choose a version ==
 
 Gamecube and Wii applications generally come in the form of .dol files.
 
@@ -9,7 +9,6 @@ Once you have downloaded and decompressed the archive, you get two versions of t
 
  * genplus_wii.dol is the version running in Wii mode. This can only be loaded on a Wii and provide extra features such as support for up to 8players and wiimote 
 
-  
   
   
 == How to load the emulator ==
