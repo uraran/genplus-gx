@@ -5,7 +5,7 @@ The original emulation core from [http://cgfm2.emuviews.com/ Charles Mac Donald]
 
 http://gxdev.files.wordpress.com/2007/08/sega_megadrive_2.thumbnail.jpg
 
-== Accurate & full speed Sega Genesis/Megadrive emulation ==
+=== Accurate & full speed Sega Genesis/Megadrive emulation ===
 
  * NTSC (60Hz) & PAL (50Hz) timings support
  * cycle-accurate CPUs synchronization (68000, Z80, YM2612, SN76489)
@@ -18,7 +18,7 @@ http://gxdev.files.wordpress.com/2007/08/sega_megadrive_2.thumbnail.jpg
 
 http://gxdev.files.wordpress.com/2007/12/street.gif?w=320&h=240
 
-== Support for various input peripherals ==
+=== Support for various input peripherals ===
  * 3-buttons & 6-buttons controllers
  * Sega Team Player & EA 4-Way Play multitap adapters
  * Sega Menacer & Konami Justifier lightguns
@@ -26,7 +26,7 @@ http://gxdev.files.wordpress.com/2007/12/street.gif?w=320&h=240
 
 http://gxdev.wordpress.com/files/2008/08/menacer.jpg
 
-== Support for various cartridge internal hardware ==
+=== Support for various cartridge internal hardware ===
  * SVP DSP (Virtua Racing)
  * J-Cart
  * backup RAM (parallel SRAM/FRAM and serial EEPROM)
@@ -37,7 +37,7 @@ http://gxdev.wordpress.com/files/2008/08/menacer.jpg
 
 http://gxdev.wordpress.com/files/2008/08/vracing.png
 
-== Gamecube/Wii extra features ==
+=== Gamecube/Wii extra features ===
 
  * Stereo Sound (@48 kHz)
  * 1~4 Players support
@@ -49,7 +49,7 @@ http://gxdev.wordpress.com/files/2008/08/vracing.png
  * interlaced (576i/480i) & progressive (480p) video modes support
 
 
-== Wii-only features ==
+=== Wii-only features ===
  * up to 8 Players support
  * Wiimote, Nunchuk & Classic Controller support
 
