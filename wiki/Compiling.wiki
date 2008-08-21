@@ -35,4 +35,4 @@ The following libraries are required:
 
  * [https://sourceforge.net/project/showfiles.php?group_id=114505&package_id=126925 libogc], from his [http://devkitpro.cvs.sourceforge.net/devkitpro/libogc/ CVS repository] 
  * [https://sourceforge.net/project/showfiles.php?group_id=114505&package_id=197264 libfat], from his [http://devkitpro.cvs.sourceforge.net/devkitpro/libfat/ CVS repository]
- * libDI from [http://hackmii.com/2008/08/libdi-and-the-dvdx-installer/ HackMii]
+ 
