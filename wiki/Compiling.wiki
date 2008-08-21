@@ -29,7 +29,7 @@ First, you will have to download and install the following tools/libraries:
 
 Once you are done, grab the current [http://code.google.com/p/genplus-gx/source/checkout genplus-gx] source code from SVN then launch compile_all.bat from *msys* (installed with devkitpro)
 
-The precompiled libogc directory contains all libraries and include files required to compile the current source code of Genesis Plus GX. However, you could also get current sourcecode of the libraries, compile them yourself and install as specified (generally *make* then *make install*.
+The precompiled libogc directory contains all libraries and include files required to compile the current source code of Genesis Plus GX. However, you could also get current sourcecode of the libraries, compile them yourself and install as specified (generally *make* then *make install*).
 
 The following libraries are required:
 
