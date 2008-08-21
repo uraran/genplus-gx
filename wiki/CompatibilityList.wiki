@@ -8,17 +8,22 @@ I personnaly tested many games to be sure they all work like on original hardwar
 On a side note, make sure you are always using good dumps, ROM files labelled as bad dump (b1, b2,...) are generally known to cause problem (even on real hardware).
 
 
-== Non-Working Games ==
+== Not Working ==
 
  * Mulan (Unl): hangs after title screen
  * Pocket Monsters II (Unl): hangs on title screen
  * Super King Kong 99 (Unl): don't boot
- * Top Fighter 2000 MK VIII (Unl): don't boot
+ * Top Fighter 2000 MK VIII (Unl): no display
  * Top Shooter (Unl): no input
  * Chinese Fighter III (Unl): hangs on character selection screen
  * Pokemon Stadium (Unl): don't boot
  * Sonic Jam 6 (Unl): don't boot
 
-== Working Games ==
+
+== Minor Glitches ==
+
+ * Micro Machines 2: corrupted graphics in track selection menu
+
+== Working ==
 
 all other games :-)
