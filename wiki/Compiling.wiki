@@ -1,16 +1,21 @@
 #labels Featured
 == Disclaimer ==
 
-You might want to compile the sourcecode yourself from SVN for various reasons:
+This project is under the GPL licence, this means that the sourcecode should *always* be made available to anyone asking for it and should be included with any modified binaries.
+
+You might want to compile the sourcecode yourself from current [http://code.google.com/p/genplus-gx/source/checkout SVN] for various reasons:
 
  * to test the current build before it is officially released
  * to compile the sourcecode with libsamplerate BEST convertor (see genplus manual)
  * to implement your own features.
 
-However, I would be grateful if you take the *following points* in consideration:
+However, I would be grateful if you take the following points in *consideration*:
 
- * current SVN build should always be considered as unstable and work in progress, you can get it from SVN and compile a binary but don't complain about bugs and don't make public release from this.
- * you can modify the sourcecode as you want but in order to keep this project clean and structured, I would ask you to keep ANY private build for yourself and avoid public or mass-distribution of derivative works. If you think the modification you made should be implemented in an official release, please contact me and I would eventually add them and obviously give all the credits to you.
+ * tagged versions are "official" releases: they have been tested to unsure the code is stable enough and mostly bug-free.
+
+ * current SVN build should always be considered as unstable and work in progress: you are free to compile the current source code but don't complain about bugs and don't make public binary release from this.
+
+ * you can modify the sourcecode as you want but in order to keep this project clean and structured, I would ask you to keep ANY private build for yourself and to avoid public distribution of derivative works. If you think the modification you made should be implemented in an official release, please contact me and I would eventually add them and obviously give all the credits to you.
 
 
 == Instructions ==
@@ -31,4 +36,3 @@ The following libraries are required:
  * [https://sourceforge.net/project/showfiles.php?group_id=114505&package_id=126925 libogc], from his [http://devkitpro.cvs.sourceforge.net/devkitpro/libogc/ CVS repository] 
  * [https://sourceforge.net/project/showfiles.php?group_id=114505&package_id=197264 libfat], from his [http://devkitpro.cvs.sourceforge.net/devkitpro/libfat/ CVS repository]
  * libDI from [http://hackmii.com/2008/08/libdi-and-the-dvdx-installer/ HackMii]
-
