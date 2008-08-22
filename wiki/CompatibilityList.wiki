@@ -24,6 +24,8 @@ On a side note, make sure you are always using good dumps, ROM files labelled as
 
  * Micro Machines 2: corrupted graphics in track selection menu
 
+http://gxdev.wordpress.com/files/2008/08/micro2.gif
+
 == Working ==
 
 all other games :-)
