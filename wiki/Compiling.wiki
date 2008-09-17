@@ -6,7 +6,6 @@ This project is under the GPL licence, this means that the sourcecode should *al
 You might want to compile the sourcecode yourself from current [http://code.google.com/p/genplus-gx/source/checkout SVN] for various reasons:
 
  * to test the current build before it is officially released
- * to compile the sourcecode with libsamplerate BEST convertor (see genplus manual)
  * to implement your own features.
 
 However, I would be grateful if you take the following points in *consideration*:
