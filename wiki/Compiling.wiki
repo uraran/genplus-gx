@@ -10,7 +10,7 @@ You might want to compile the sourcecode yourself from current [http://code.goog
 
 However, I would be grateful if you take the following points in *consideration*:
 
- * tagged versions are "official" releases: they have been tested to unsure the code is stable enough and mostly bug-free.
+ * tagged versions are "official" releases: they have been tested to ensure the code is stable enough and mostly bug-free.
 
  * current SVN build should always be considered as unstable and work in progress: you are free to compile the current source code but don't complain about bugs and don't make public binary release from this.
 
