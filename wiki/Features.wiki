@@ -10,7 +10,7 @@ http://gxdev.files.wordpress.com/2007/08/sega_megadrive_2.thumbnail.jpg
  * NTSC (60Hz) & PAL (50Hz) timings support
  * cycle-accurate CPUs synchronization (68000, Z80, YM2612, SN76489)
  * cycle-accurate VDP emulation (DMA, FIFO, HV interrupts, HBLANK,…)
- * original frequency YM2612 emulation (High Quality FM)
+ * YM2612 emulation at the original frequency (High Quality FM)
  * hardware latency emulation
  * full overscan area (horizontal & vertical colored borders) emulation
  * TMSS BIOS support
@@ -18,7 +18,7 @@ http://gxdev.files.wordpress.com/2007/08/sega_megadrive_2.thumbnail.jpg
 
 http://gxdev.files.wordpress.com/2007/12/street.gif?w=320&h=240
 
-=== Support for various input peripherals ===
+=== Support for various peripherals ===
  * 3-buttons & 6-buttons controllers
  * Sega Team Player & EA 4-Way Play multitap adapters
  * Sega Menacer & Konami Justifier lightguns
@@ -26,14 +26,14 @@ http://gxdev.files.wordpress.com/2007/12/street.gif?w=320&h=240
 
 http://gxdev.wordpress.com/files/2008/08/menacer.jpg
 
-=== Support for various cartridge internal hardware ===
+=== Support for various cartridges extra hardware ===
  * SVP DSP (Virtua Racing)
  * J-Cart (Micro Machines serie, Super Skidmarks, Pete Sampras serie)
  * battery RAM
  * serial EEPROM chips (all known types)
  * ROM bankswitch (Super Street Fighter 2)
  * SRAM switch  (Phantasy Star 4, Legend of Thor, Sonic the Hedgehog 3)
- * mappers & copy protection devices used in many unlicensed/pirate cartridges
+ * banking & copy protection devices used in many unlicensed/pirate cartridges
  * Game Genie codes
 
 http://gxdev.wordpress.com/files/2008/08/vracing.png
