@@ -54,4 +54,6 @@ You should create a directory named */genplus* at the root of your SDCARD. Insid
 
 The most important thing is that the DVD should be compliant with the ISO9660 format. Otherwise, ROM files can be put anywhere but again, it is better to use subdirectories and keep a limited amount of files in each directory.
 
-Wii user will need to install the [http://hackmii.com/2008/08/libdi-and-the-dvdx-installer/ DI layer interface] first and burn a suitable DVD. Contrary to Gamecube users, a  modchip is not required to load from DVD.
+Wii user will need to install the [http://hackmii.com/2008/08/libdi-and-the-dvdx-installer/ DI layer interface] first and burn a suitable DVD. Please read the above article carefully to know how to install properly the DVDX stub and the required type for DVD, especially if you have a modchip.
+
+Also note that, thanks to DVDX, contrary to Gamecube users, a  modchip is not required to load from DVD.
