@@ -12,11 +12,9 @@ On a side note, make sure you are always using good dumps, ROM files labelled as
 
  * Mulan (Unl): hangs after title screen
  * Pocket Monsters II (Unl): hangs on title screen
- * Super King Kong 99 (Unl): don't boot
  * Top Fighter 2000 MK VIII (Unl): no display
  * Top Shooter (Unl): no input
  * Chinese Fighter III (Unl): hangs on character selection screen
- * Pokemon Stadium (Unl): don't boot
  * Sonic Jam 6 (Unl): don't boot
 
 
