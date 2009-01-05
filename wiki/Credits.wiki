@@ -10,7 +10,7 @@
  * SN76489 core by [http://www.smspower.org/maxim/ Maxim]
  * SVP core by [http://notaz.gp2x.de/svp.php Notaz]
  * [http://www.mega-nerd.com/SRC/ libsamplerate ] by Erik de Castro Lopo
- * [http://www.fly.net/~ant/libs/ntsc.html NTSC Video Filter ] library by Shay Green
+ * [http://www.fly.net/~ant/libs/ntsc.html NTSC Video Filter ] by Shay Green
  * [http://zlib.net/ zlib] by Jean-Loup Gailly and Mark Adler_
 
 
