@@ -1,4 +1,3 @@
-#summary what you see is what you get
 #labels Featured
 
 Genesis Plus first goal is to provide the most complete & accurate emulation of the Sega Genesis/Megadrive hardware.
