@@ -1,4 +1,3 @@
-#summary don't forget this is an open-source project
 #labels Featured
 
 == Disclaimer ==
