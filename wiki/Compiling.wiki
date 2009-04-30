@@ -1,5 +1,4 @@
 #labels Featured
-
 == Disclaimer ==
 
 This project is under the GPL licence, this means that the sourcecode should *always* be made available to anyone asking for it and should be included with any modified binaries.
@@ -33,6 +32,6 @@ The precompiled libogc directory contains all libraries and include files requir
 
 The following libraries are required:
 
- * [https://sourceforge.net/project/showfiles.php?group_id=114505&package_id=126925 libogc], from his [http://devkitpro.cvs.sourceforge.net/devkitpro/libogc/ CVS repository] 
- * [https://sourceforge.net/project/showfiles.php?group_id=114505&package_id=197264 libfat], from his [http://devkitpro.cvs.sourceforge.net/devkitpro/libfat/ CVS repository]
+ * [https://sourceforge.net/project/showfiles.php?group_id=114505&package_id=126925 libogc], from his [http://devkitpro.svn.sourceforge.net/devkitpro/libogc/ SVN repository] 
+ * [https://sourceforge.net/project/showfiles.php?group_id=114505&package_id=197264 libfat], from his [http://devkitpro.svn.sourceforge.net/devkitpro/libfat/ SVN repository]
  
