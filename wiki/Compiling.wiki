@@ -18,7 +18,7 @@ However, I would appreciate if you respect the following points:
 
 == How to Compile ? ==
 
-You will need to be familiar with development environment setup. If you don't, you might look at [http://www.wiibrew.org wiibrew] or [http://www.tehskeen.com/forums/showthread.php?t=2968 this thread] tehskeen's forum.
+You will need to be familiar with development environment setup. If you don't, you might look at [http://www.wiibrew.org wiibrew] or [http://www.tehskeen.com/forums/showthread.php?t=2968 this thread] at tehskeen's forum.
 
 You will have to download and install the following tools/libraries:
 
