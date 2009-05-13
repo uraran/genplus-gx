@@ -1,5 +1,4 @@
 #labels Featured
-
 Genesis Plus first goal is to provide the most complete & accurate emulation of the Sega Genesis/Megadrive hardware.
 
 The original emulation core from [http://cgfm2.emuviews.com/ Charles Mac Donald] has been slightly modified to improve overall accuracy and therefore compatibility, as well as adding emulation support for various peripherals and extra hardware.
@@ -16,6 +15,7 @@ http://gxdev.files.wordpress.com/2007/08/sega_megadrive_2.thumbnail.jpg
  * full overscan area (horizontal & vertical colored borders) emulation
  * TMSS BIOS support
  * PICO hardware support (experimental)
+ * Blargg's software NTSC filters support
 
 http://gxdev.files.wordpress.com/2007/12/street.gif?w=320&h=240
 
@@ -30,7 +30,7 @@ http://gxdev.wordpress.com/files/2008/08/menacer.jpg
 === Support for various cartridges extra hardware ===
  * SVP DSP (Virtua Racing)
  * J-Cart (Micro Machines serie, Super Skidmarks, Pete Sampras serie)
- * battery RAM
+ * battery SRAM
  * serial EEPROM chips (all known types)
  * ROM bankswitch (Super Street Fighter 2)
  * SRAM switch  (Phantasy Star 4, Legend of Thor, Sonic the Hedgehog 3)
@@ -44,15 +44,17 @@ http://gxdev.wordpress.com/files/2008/08/vracing.png
  * Stereo Sound (@48 kHz)
  * 1~4 Players support
  * automatic SRAM and Savestate files (on Memory Card & SD Card)
- * ROM internal information screen
+ * ROM internal header information
  * support for zipped (.zip) and interleaved (.smd) roms
- * load roms from SDCard or DVD
+ * load roms from SDCARD or DVD
  * original video modes (240p/240i/288p/288i) support
  * interlaced (576i/480i) & progressive (480p) video modes support
-
+ * fully featured & optimized Graphical Interface
 
 === Wii-only features ===
  * up to 8 Players support
  * Wiimote, Nunchuk & Classic Controller support
+ * Wiimote IR support
+ * load ROM files from USB device
 
 http://gxdev.files.wordpress.com/2008/08/wiimote.jpg?w=240&h=241
