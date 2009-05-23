@@ -3,9 +3,9 @@
 
 == Genesis Plus core ==
 
- * based on the original 1.2a version from [http://cgfm2.emuviews.com/ Charles Mac Donald]
- * current version (new emulation core, extra features, compatibility fixes,…) maintained by [http://gxdev.wordpress.com/ eke-eke]
- * Z80, 68000 and YM2612 cores by the [http://mamedev.org/ M.A.M.E] team
+ * based on 1.2a version, originaly coded by [http://cgfm2.emuviews.com/ Charles MacDonald]
+ * current version (improved emulation accuracy, additional features, compatibility fixes,…) by [http://gxdev.wordpress.com/ eke-eke]
+ * Z80, 68000 and YM2612 cores from the [http://mamedev.org/ M.A.M.E] project
  * SN76489 core by [http://www.smspower.org/maxim/ Maxim]
  * SVP core by [http://notaz.gp2x.de/svp.php Notaz]
  * [http://www.mega-nerd.com/SRC/ libsamplerate ] by Erik de Castro Lopo
@@ -27,7 +27,7 @@
 == Gamecube/Wii ports ==
 
  * based on the original Gamecube port from softdev, honkeykong & markcube
- * Wii port & current code maintained by eke-eke
+ * Wii port & current code by eke-eke
  * GUI design by lowlines & eke-eke
  * GUI engine by eke-eke
  * Memory Card icon design by [http://www.tehskeen.net brakken]
