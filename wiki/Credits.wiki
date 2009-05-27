@@ -3,9 +3,11 @@
 
 == Genesis Plus core ==
 
- * based on 1.2a version, originaly coded by [http://cgfm2.emuviews.com/ Charles MacDonald]
- * current version (improved emulation accuracy, additional features, compatibility fixes,…) by [http://gxdev.wordpress.com/ eke-eke]
- * Z80, 68000 and YM2612 cores from the [http://mamedev.org/ M.A.M.E] project
+ * based on the original 1.2a version by [http://cgfm2.emuviews.com/ Charles MacDonald]
+ * current version (improved emulation accuracy, additional features, compatibility fixes, cores modification) by [http://gxdev.wordpress.com/ eke-eke]
+ * Mame Z80 core by Juergen Buchmueller
+ * Mushashi 68k core by Karl Stenerud
+ * Mame YM2612 core by Jarek Burczynski
  * SN76489 core by [http://www.smspower.org/maxim/ Maxim]
  * SVP core by [http://notaz.gp2x.de/svp.php Notaz]
  * [http://www.mega-nerd.com/SRC/ libsamplerate ] by Erik de Castro Lopo
