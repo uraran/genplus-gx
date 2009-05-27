@@ -49,10 +49,11 @@ http://gxdev.wordpress.com/files/2008/08/vracing.png
  * bilinear hardware filtering
  * 1~4 Players support
  * automatic SRAM and State files
- * ROM internal header information
  * support for 10 MBytes roms (Ultimate MK3 hack)
  * support for zipped (.zip), raw (.bin, .gen, .md) and interleaved (.smd) roms
  * load roms from SDCARD or DVD
+ * ROM internal header information
+ * ROM screenshot
  * fully featured & optimized Graphical Interface
 
 === Wii extra features ===
