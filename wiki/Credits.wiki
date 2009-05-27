@@ -3,8 +3,8 @@
 
 == Genesis Plus core ==
 
- * based on the original 1.2a version by [http://cgfm2.emuviews.com/ Charles MacDonald]
  * current version (improved emulation accuracy, new features, compatibility fixes & various cores modification) by [http://gxdev.wordpress.com/ eke-eke]
+ * based on the original 1.2a version by [http://cgfm2.emuviews.com/ Charles MacDonald]
  * Mame Z80 core by Juergen Buchmueller
  * Mushashi 68k core by Karl Stenerud
  * Mame YM2612 core by Jarek Burczynski
@@ -29,18 +29,17 @@
 
 == Gamecube/Wii ports ==
 
+ * current version, Wii port, generic GUI design & coding by eke-eke
  * based on the original Gamecube port from softdev, honkeykong & markcube
- * Wii port & current code by eke-eke
- * GUI design by lowlines & eke-eke
- * GUI engine by eke-eke
+ * original icon,logo & button design by [http://llref.emutalk.net/ LowLines]
  * Memory Card icon design by [http://www.tehskeen.net brakken]
- * [http://chishm.drunkencoders.com/libfat/ libFAT] by Chism , ported to libogc by Sven Peter (svpe) & wintermute
- * [http://www.wiiuse.net/ wiiuse] library by Michael Laforest (para), ported to libogc by shagkur
+ * [http://chishm.drunkencoders.com/libfat/ libFAT] by Chism
+ * [http://www.wiiuse.net/ wiiuse] library by Michael Laforest (para)
  * [http://hackmii.com/2008/08/libdi-and-the-dvdx-installer/ libDI] by Erant
  * [http://www.devkitpro.org/category/libogc/ libOGC] by wintermute, shagkur, marcan & many other contributors
  * [http://www.devkitpro.org/ devkitpro] & [http://www.devkitpro.org/category/devkitppc/ devkitPPC] by wintermute
- * asndlib and OGG player by hermes
- * libpng and libtremor by various people_
+ * asndlib and OGG player by [http://www.entuwii.net/foro/viewtopic.php?f=6&t=87 Hermes]
+ * [http://www.libpng.org/pub/png/libpng.html libpng] and [http://www.freshports.org/audio/libtremor libtremor] by their respective authors_
 
 
 
