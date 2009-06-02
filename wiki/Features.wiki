@@ -1,16 +1,16 @@
 #labels Featured
-Genesis Plus first goal is to provide the most complete & accurate emulation of the Sega Genesis/Megadrive hardware.
+Genesis Plus main goal is to provide the most complete & accurate emulation of the Sega Genesis/Megadrive hardware.
 
-The original emulation core from [http://cgfm2.emuviews.com/ Charles Mac Donald] has been slightly modified to improve overall accuracy and therefore compatibility, as well as adding emulation support for various peripherals and extra hardware.
+The original emulation core from [http://cgfm2.emuviews.com/ Charles Mac Donald] has been slightly modified and emulation bugs tracked down to improve overall accuracy and therefore compatibility, as well as adding emulation of various peripherals and extra hardware.
 
 http://gxdev.files.wordpress.com/2007/08/sega_megadrive_2.thumbnail.jpg
 
-=== Very Accurate & full speed Sega Genesis/Megadrive emulation ===
+=== Very Accurate & Full Speed Sega Genesis/Megadrive emulation ===
 
  * NTSC (60Hz) & PAL (50Hz) timings support
- * cycle-accurate CPUs synchronization (68000, Z80, YM2612, SN76489)
- * cycle-accurate VDP emulation (DMA, FIFO, HV interrupts, HBLANK,…)
- * basic bus latency emulation
+ * cycle-accurate CPU synchronization (68000, Z80, YM2612, SN76489)
+ * cycle-accurate VDP emulation (DMA, FIFO, HV interrupts, HBLANK, undocumented registers…)
+ * basic latency emulation (VDP/68k, Z80/68k)
  * YM2612 chip emulation at the original frequency (High Quality FM)
  * SN76489 chip linear synthesis (Blip Buffer)
  * full overscan area (horizontal & vertical colored borders) emulation
@@ -63,3 +63,10 @@ http://gxdev.wordpress.com/files/2008/08/vracing.png
  * load ROM files from USB device
 
 http://gxdev.files.wordpress.com/2008/08/wiimote.jpg?w=240&h=241
+
+=== What's not emulated ===
+ * VDP undocumented modes (Mode 4, TM9918-like mode)
+ * VDP debug registers 
+ * "pixel-accurate" rendering (mid-line palette changes, CRAM flickering...)
+
+Note: These features are not used by any official games and are only listed here as a reminder.
