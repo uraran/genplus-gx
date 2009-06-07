@@ -68,5 +68,6 @@ http://gxdev.files.wordpress.com/2008/08/wiimote.jpg?w=240&h=241
  * VDP undocumented modes (Mode 4, TM9918-like mode)
  * VDP debug registers 
  * "pixel-accurate" rendering (mid-line palette changes, CRAM flickering...)
+ * YM2612 Busy Status flag
 
 Note: These features are not used by any official games and are only listed here as a reminder.
