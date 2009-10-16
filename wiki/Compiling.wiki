@@ -20,10 +20,10 @@ However, I would appreciate if you respect the following points:
 
 You will need to be familiar with development environment setup. If you don't, you might look at [http://www.wiibrew.org wiibrew] or [http://www.tehskeen.com/forums/showthread.php?t=2968 this thread] at tehskeen's forum.
 
-You will have to download and install the following tools/libraries:
+You will have to download and install the following tools/libraries from the official Devkitpro ressource [http://sourceforge.net/projects/devkitpro/files/ page]:
 
- # the last version of Devkitpro and [http://sourceforge.net/projects/devkitpro/files/ DevkitPPC]. Windows user should directly run the AutoInstaller. During installation, make sure you get libogc and libfat libraries as well.
- # the following portlibs from [http://sourceforge.net/projects/devkitpro/files/ here]: libpng & libtremor. They should be extracted in C:/devkitpro/portlibs/ppc. 
+ # the last version of DevkitPPC. Windows user should directly run the Automated Installer. During installation, make sure you get libogc and libfat libraries as well.They should be installed in C:/devkitpro/libogc/
+ # the following portlibs (PPC versions): libpng & libtremor. They should be extracted in C:/devkitpro/portlibs/ppc/
 
 Once you are done, grab the current [http://code.google.com/p/genplus-gx/source/checkout genplus-gx] source code from SVN then launch compile_all.bat or compile it from *msys* (installed with devkitpro)
 
