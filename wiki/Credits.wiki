@@ -5,9 +5,9 @@
 
  * current version (improved emulation accuracy, new features, compatibility fixes & various cores modification) by [http://gxdev.wordpress.com/ eke-eke]
  * based on the original 1.2a version by [http://cgfm2.emuviews.com/ Charles MacDonald]
- * Mame Z80 core by Juergen Buchmueller
- * Mushashi 68k core by Karl Stenerud
- * Mame YM2612 core by Jarek Burczynski
+ * original Z80 core by Juergen Buchmueller ([http://mamedev.org/release.html MAME])
+ * original Mushashi 68k core by Karl Stenerud ([http://mamedev.org/release.html MAME])
+ * original YM2612 core by Jarek Burczynski and Tatsuyuki Satoh ([http://mamedev.org/release.html MAME])
  * SN76489 core by [http://www.smspower.org/maxim/ Maxim]
  * SVP core by [http://notaz.gp2x.de/svp.php Notaz]
  * FIR Resampler, Blip Buffer linear interpolation & [http://www.fly.net/~ant/libs/ntsc.html NTSC Video Filter ] by Shay Green (aka Blargg)
