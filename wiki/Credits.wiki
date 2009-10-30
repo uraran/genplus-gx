@@ -28,13 +28,13 @@
 
  * current version, Wii port, generic GUI design & coding by eke-eke
  * based on the original Gamecube port from softdev, honkeykong & markcube
- * original icon,logo & button design by [http://llref.emutalk.net/ LowLines]
+ * original icon, logo & button design by [http://llref.emutalk.net/ LowLines]
  * Memory Card icon design by [http://www.tehskeen.net brakken]
  * [http://chishm.drunkencoders.com/libfat/ libFAT] by Chism
  * [http://www.wiiuse.net/ wiiuse] library by Michael Laforest (para)
  * [http://hackmii.com/2008/08/libdi-and-the-dvdx-installer/ libDI] by Erant
- * [http://www.devkitpro.org/category/libogc/ libOGC] by wintermute, shagkur, marcan & many other contributors
- * asndlib and OGG player by [http://www.entuwii.net/foro/viewtopic.php?f=6&t=87 Hermes + some fixex by tantric]
+ * [http://www.devkitpro.org/category/libogc/ libOGC] by shagkur & lot of others
+ * asndlib and OGG player by [http://www.entuwii.net/foro/viewtopic.php?f=6&t=87 Hermes] incl. some fixes by [http://code.google.com/u/dborth/ tantric]
  * [http://www.libpng.org/pub/png/libpng.html libpng] and [http://www.freshports.org/audio/libtremor libtremor] by their respective authors_
 
 
