@@ -19,7 +19,7 @@
  * [http://www.trzy.org/ Bart Trzynadlowski] for his documentations about the mapper used in Super Street Fighter II and 68000 undocumented behaviour
  * [http://mamedev.emulab.it/haze/ Haze] for having found and documented many unlicensed game protections
  * Notaz & Stef for their help and sharing the source code of their respective emulators, Picodrive and Gens, which were also great sources of inspiration.
- * Steve Snake, author of Kega and [http://aamirm.hacking-cult.org/ AamirM], author of Regen, for sharing some of their findings.
+ * Steve Snake, author of [http://www.eidolons-inn.net/tiki-index.php?page=Kega Kega] and [AamirM, author of [http://aamirm.hacking-cult.org/ Regen], for sharing some of their findings.
  * Charles Mc Donald for his excellent documentation about the Sega Genesis hardware and for having designed such a great emulator in the first place (your VDP renderer rules !)
  * [http://www.spritesmind.net/_GenDev/forum/ Spritesmind] & [http://www.smspower.org/ SMS Power] forums members for their technical help_
 
@@ -34,14 +34,14 @@
  * [http://www.wiiuse.net/ wiiuse] library by Michael Laforest (para)
  * [http://hackmii.com/2008/08/libdi-and-the-dvdx-installer/ libDI] by Erant
  * [http://www.devkitpro.org/category/libogc/ libOGC] by wintermute, shagkur, marcan & many other contributors
- * [http://www.devkitpro.org/ devkitpro] & [http://www.devkitpro.org/category/devkitppc/ devkitPPC] by wintermute
- * asndlib and OGG player by [http://www.entuwii.net/foro/viewtopic.php?f=6&t=87 Hermes]
+ * asndlib and OGG player by [http://www.entuwii.net/foro/viewtopic.php?f=6&t=87 Hermes + some fixex by tantric]
  * [http://www.libpng.org/pub/png/libpng.html libpng] and [http://www.freshports.org/audio/libtremor libtremor] by their respective authors_
 
 
 
 ==== additional thanks to ====
  * softdev for all his great work and inspiration
+ * wintermute for [http://www.devkitpro.org/ devkitpro] & [http://www.devkitpro.org/category/devkitppc/ devkitPPC]
  * [http://debugmo.de/ tmbinc] for having opened the way to the Gamecube scene
  * [http://hackmii.com/ Twiizer team] for all their contribution to the Wii scene
  * Brakken & [http://www.tehskeen.com Tehskeen's] forum members for their feedback, support and donations !
