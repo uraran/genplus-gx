@@ -4,7 +4,7 @@
 == Genesis Plus core ==
 
  * current version (improved emulation accuracy, new features, compatibility fixes & various cores modification) by [http://gxdev.wordpress.com/ eke-eke]
- * based on the original 1.2a version by [http://cgfm2.emuviews.com/ Charles MacDonald]
+ * based on the original 1.2a version by [http://cgfm2.emuviews.com/genplus.php Charles MacDonald]
  * original Z80 core by Juergen Buchmueller ([http://mamedev.org/release.html MAME])
  * original Mushashi 68k core by Karl Stenerud ([http://mamedev.org/release.html MAME])
  * original YM2612 core by Jarek Burczynski and Tatsuyuki Satoh ([http://mamedev.org/release.html MAME])
