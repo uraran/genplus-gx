@@ -10,10 +10,8 @@
  * original YM2612 core by Jarek Burczynski and Tatsuyuki Satoh ([http://mamedev.org/release.html MAME])
  * SN76489 core by [http://www.smspower.org/maxim/ Maxim]
  * SVP core by [http://notaz.gp2x.de/svp.php Notaz]
- * FIR Resampler, Blip Buffer linear interpolation & [http://www.fly.net/~ant/libs/ntsc.html NTSC Video Filter ] by Shay Green (aka Blargg)
+ * FIR Resampler & [http://www.fly.net/~ant/libs/ntsc.html NTSC Video Filter ] by Shay Green (aka Blargg)
  * 3-Band EQ implementation by Neil C / Etanza Systems / 2K6
- * [http://zlib.net/ zlib] by Jean-Loup Gailly and Mark Adler_
-
 
 ==== additional thanks to ====
  * Nemesis, for having tested and documented many of the unknown YM2612 features and helping out improving FM emulation.
