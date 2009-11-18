@@ -8,11 +8,10 @@ http://gxdev.files.wordpress.com/2007/08/sega_megadrive_2.thumbnail.jpg
 === Very Accurate & Full Speed Sega Genesis/Megadrive emulation ===
 
  * NTSC (60Hz) & PAL (50Hz) timings support
- * cycle-accurate CPU synchronization (68000, Z80, YM2612, SN76489)
- * cycle-accurate VDP emulation (DMA, FIFO, HV interrupts, HBLANK, undocumented registers…)
+ * accurate CPU synchronization (68000, Z80, YM2612, SN76489)
+ * accurate VDP emulation (DMA, FIFO, HV interrupts, HBLANK, undocumented registers…)
+ * accurate YM2612 chip emulation, at the original frequency (High Quality FM)
  * basic latency emulation (VDP/68k, Z80/68k)
- * YM2612 chip emulation at the original frequency (High Quality FM)
- * SN76489 chip linear synthesis (Blip Buffer)
  * full overscan area (horizontal & vertical colored borders) emulation
  * TMSS BIOS support
  * PICO hardware support (experimental)
@@ -36,7 +35,8 @@ http://gxdev.wordpress.com/files/2008/08/menacer.jpg
  * ROM bankswitch hardware (Super Street Fighter 2)
  * ROM/RAM switch hardware (Phantasy Star 4, Legend of Thor, Sonic the Hedgehog 3)
  * various banking & copy protection devices used in unlicensed/pirate cartridges
- * Game Genie codes
+ * native Game Genie & Action Replay hardware emulation
+ * Lock-On hardware emulation
 
 http://gxdev.wordpress.com/files/2008/08/vracing.png
 
@@ -54,6 +54,7 @@ http://gxdev.wordpress.com/files/2008/08/vracing.png
  * load roms from SDCARD or DVD
  * ROM internal header information
  * ROM screenshot
+ * Game Genie codes support
  * fully featured & optimized Graphical Interface
 
 === Wii extra features ===
