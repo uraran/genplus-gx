@@ -1,4 +1,5 @@
 #summary Random snapshots from the emulator
+#labels Featured
 
 http://gxdev.wordpress.com/files/2009/11/aladdin-usa.png
 http://gxdev.wordpress.com/files/2009/11/akumajou-dracula-vampire-killer-japan.png
