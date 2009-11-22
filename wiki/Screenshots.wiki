@@ -1,4 +1,4 @@
-#summary Random game pics using the internal snapshot feature
+#summary Random game pics (directly from Genesis Plus GX, using the internal snapshot feature)
 
 http://gxdev.wordpress.com/files/2009/11/aladdin-usa.png
 http://gxdev.wordpress.com/files/2009/11/akumajou-dracula-vampire-killer-japan.png
