@@ -7,15 +7,17 @@ http://gxdev.files.wordpress.com/2007/08/sega_megadrive_2.thumbnail.jpg
 
 === Very Accurate & Full Speed Sega Genesis/Megadrive emulation ===
 
- * NTSC (60Hz) & PAL (50Hz) timings support
- * accurate CPU synchronization (68000, Z80, YM2612, SN76489)
- * accurate VDP emulation (DMA, FIFO, HV interrupts, HBLANK, undocumented registers…)
- * accurate YM2612 chip emulation, at the original frequency (High Quality FM)
+ * NTSC (60Hz) & PAL (50Hz) hardware emulation
+ * accurate 68k & Z80 CPU emulation
+ * accurate VDP emulation (HBLANK, DMA, FIFO, HV interrupts, undocumented registers…)
+ * accurate YM2612 emulation (FM synthesis is done at the original frequency, using FIR resampling)
+ * accurate chip synchronization (68k/Z80 access to YM2612/SN76489)
  * basic latency emulation (VDP/68k, Z80/68k)
  * full overscan area (horizontal & vertical colored borders) emulation
- * TMSS BIOS support
- * PICO hardware support (experimental)
+ * full TMSS BIOS support
+ * experimental PICO hardware support
  * Blargg's software NTSC filters support
+ * configurable sound output mixing (FM/PSG levels) and filtering (Low-Pass filter & 3-Band equalizer)
 
 http://gxdev.files.wordpress.com/2007/12/street.gif?w=320&h=240
 
@@ -23,42 +25,44 @@ http://gxdev.files.wordpress.com/2007/12/street.gif?w=320&h=240
  * 3-buttons & 6-buttons controllers
  * Sega Team Player & EA 4-Way Play multitap adapters
  * Sega Menacer & Konami Justifier lightguns
- * Sega Mouse & Sega Mega Mouse
+ * Sega Mouse
 
 http://gxdev.wordpress.com/files/2008/08/menacer.jpg
 
 === Support for various cartridges extra hardware ===
  * SVP DSP (Virtua Racing)
  * J-Cart adapter (Micro Machines & Pete Sampras series, Super Skidmarks)
- * backup RAM (SRAM)
+ * internal SRAM (up to 64kB)
  * serial EEPROM (all known chips)
  * ROM bankswitch hardware (Super Street Fighter 2)
  * ROM/RAM switch hardware (Phantasy Star 4, Legend of Thor, Sonic the Hedgehog 3)
  * various banking & copy protection devices used in unlicensed/pirate cartridges
  * native Game Genie & Action Replay hardware emulation
  * Lock-On hardware emulation
+ * support for ROM image up to 10MB (Ultimate MK3 hack)
 
 http://gxdev.wordpress.com/files/2008/08/vracing.png
 
 === Gamecube/Wii generic features ===
 
- * Stereo Sound (@48 kHz)
- * optimized GX rendering engine
- * original video modes (240p/240i/288p/288i) support
- * interlaced (576i/480i) & progressive (480p) video modes support
- * bilinear hardware filtering
+ * fully featured & optimized Graphical User Interface
+ * stereo sound (@48 kHz)
+ * optimized GX video rendering engine
+ * 100% smooth video & audio synchronization
+ * 50/60 Hz video output support
+ * native low-resolution video modes support
+ * high-resolution (interlaced/progressive) video modes support
+ * hardware bilinear filtering (optional)
  * 1~4 Players support
- * automatic SRAM and State files
- * support for 10 MBytes roms (Ultimate MK3 hack)
+ * automatic SRAM and Savestate files (optional)
+ * load ROM files from SDCARD or DVD
  * support for zipped (.zip), raw (.bin, .gen, .md) and interleaved (.smd) roms
- * load roms from SDCARD or DVD
  * ROM internal header information
- * ROM screenshot
+ * ROM screenshot capture function
  * Game Genie codes support
- * fully featured & optimized Graphical Interface
 
 === Wii extra features ===
- * up to 8 Players support
+ * 1~8 Players
  * Wiimote, Nunchuk & Classic controllers support
  * Wiimote IR support
  * load ROM files from USB device
