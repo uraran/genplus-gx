@@ -17,7 +17,6 @@ http://gxdev.files.wordpress.com/2007/08/sega_megadrive_2.thumbnail.jpg
  * full TMSS BIOS support
  * experimental PICO hardware support
  * Blargg's software NTSC filters support
- * configurable sound output mixing (FM/PSG levels) and filtering (Low-Pass filter & 3-Band equalizer)
 
 http://gxdev.files.wordpress.com/2007/12/street.gif?w=320&h=240
 
@@ -53,6 +52,7 @@ http://gxdev.wordpress.com/files/2008/08/vracing.png
  * native low-resolution video modes support
  * high-resolution (interlaced/progressive) video modes support
  * hardware bilinear filtering (optional)
+ * configurable sound output mixing (FM/PSG levels) and filtering (Low-Pass filter & 3-Band equalizer)
  * 1~4 Players support
  * automatic SRAM and Savestate files (optional)
  * load ROM files from SDCARD or DVD
