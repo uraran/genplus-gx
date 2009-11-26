@@ -21,7 +21,7 @@
  * Notaz & Stef for sharing the source code of their respective emulators, Picodrive and Gens, which were also great sources of inspiration.
  * Steve Snake, author of [http://www.eidolons-inn.net/tiki-index.php?page=Kega Kega] and AamirM, author of [http://aamirm.hacking-cult.org/ Regen], for sharing some of their findings.
  * Charles MacDonald, again, for his excellent documentation about the Sega Genesis hardware and for having designed such a great emulator in the first place (your VDP renderer rules !)
- * [http://www.spritesmind.net/_GenDev/forum/ Spritesmind] & [http://www.smspower.org/ SMS Power] forums members for their technical help_
+ * [http://www.spritesmind.net/_GenDev/forum/ Spritesmind] & [http://www.smspower.org/ SMS Power] forums members for their technical help
 
 
 == Gamecube/Wii ports ==
@@ -35,7 +35,7 @@
  * [http://hackmii.com/2008/08/libdi-and-the-dvdx-installer/ libDI] by Erant
  * [http://www.devkitpro.org/category/libogc/ libOGC] by shagkur & lot of others
  * asndlib and OGG player by [http://www.entuwii.net/foro/viewtopic.php?f=6&t=87 Hermes] incl. some fixes by [http://code.google.com/u/dborth/ tantric]
- * [http://www.libpng.org/pub/png/libpng.html libpng] and [http://www.freshports.org/audio/libtremor libtremor] by their respective authors_
+ * [http://www.libpng.org/pub/png/libpng.html libpng] and [http://www.freshports.org/audio/libtremor libtremor] by their respective authors
 
 
 
