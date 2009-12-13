@@ -60,6 +60,7 @@ http://gxdev.wordpress.com/files/2008/08/vracing.png
  * ROM internal header information
  * ROM screenshot capture function
  * Game Genie codes support
+ * Cartridge "hot-swapping"
 
 === Wii extra features ===
  * 1~8 Players
