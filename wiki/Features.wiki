@@ -8,11 +8,11 @@ http://gxdev.files.wordpress.com/2007/08/sega_megadrive_2.thumbnail.jpg
 === Very Accurate & Full Speed Sega Genesis/Megadrive emulation ===
 
  * NTSC (60Hz) & PAL (50Hz) hardware emulation
- * accurate 68k & Z80 CPU emulation
- * accurate VDP emulation (HBLANK, DMA, FIFO, HV interrupts, undocumented registers…)
- * accurate YM2612 emulation (FM synthesis is done at the original frequency, using FIR resampling)
+ * highly accurate 68k & Z80 CPU emulation
+ * highly accurate VDP emulation (HBLANK, DMA, FIFO, HV interrupts, undocumented registers…)
+ * cycle-accurate YM2612 emulation (FM synthesis is done at the original frequency, using FIR resampling)
  * accurate chip synchronization (68k/Z80 access to YM2612/SN76489)
- * basic latency emulation (VDP/68k, Z80/68k)
+ * basic hardware latency emulation (VDP/68k, Z80/68k)
  * full overscan area (horizontal & vertical colored borders) emulation
  * full TMSS BIOS support
  * experimental PICO hardware support
@@ -31,11 +31,11 @@ http://gxdev.wordpress.com/files/2008/08/menacer.jpg
 === Support for various cartridges extra hardware ===
  * SVP DSP (Virtua Racing)
  * J-Cart adapter (Micro Machines & Pete Sampras series, Super Skidmarks)
- * internal SRAM (up to 64kB)
- * serial EEPROM (all known chips)
+ * SRAM chips (up to 64kB)
+ * serial EEPROM chips (all known chips)
  * ROM bankswitch hardware (Super Street Fighter 2)
- * ROM/RAM switch hardware (Phantasy Star 4, Legend of Thor, Sonic the Hedgehog 3)
- * various banking & copy protection devices used in unlicensed/pirate cartridges
+ * ROM/SRAM bankswitch hardware (Phantasy Star 4, Legend of Thor, Sonic the Hedgehog 3)
+ * most banking & copy protection devices used in unlicensed/pirate cartridges
  * native Game Genie & Action Replay hardware emulation
  * Lock-On hardware emulation
  * support for ROM image up to 10MB (Ultimate MK3 hack)
@@ -49,14 +49,14 @@ http://gxdev.wordpress.com/files/2008/08/vracing.png
  * optimized GX video rendering engine
  * 100% smooth video & audio synchronization
  * 50/60 Hz video output support
- * native low-resolution video modes support
- * high-resolution (interlaced/progressive) video modes support
+ * native low-resolution (interlaced & non-interlaced) video modes support
+ * high-resolution (480i/576i/480p) video modes support
  * hardware bilinear filtering (optional)
  * configurable sound output mixing (FM/PSG levels) and filtering (Low-Pass filter & 3-Band equalizer)
  * 1~4 Players support
  * automatic SRAM and Savestate files (optional)
  * load ROM files from SDCARD or DVD
- * support for zipped (.zip), raw (.bin, .gen, .md) and interleaved (.smd) roms
+ * support for zipped (.zip), raw (.bin, .gen, .md) and interleaved (.smd) ROM files
  * ROM internal header information
  * ROM screenshot capture function
  * Game Genie codes support
