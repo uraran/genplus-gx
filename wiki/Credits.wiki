@@ -16,12 +16,13 @@
 ==== additional thanks to ====
  * [http://gendev.spritesmind.net/forum/viewtopic.php?t=386 Nemesis], for having tested and documented many of the unknown YM2612 features and helping out improving FM emulation.
  * Tasco Deluxe for his work around the SVP chip and for his documentation of Realtec mapper used in a few unlicensed games.
- * [http://www.trzy.org/ Bart Trzynadlowski] for his documentation about the mapper used in Super Street Fighter II and 68000 undocumented behaviour
- * [http://mamedev.emulab.it/haze/ Haze] for having found and documented many unlicensed game protections
+ * [http://www.trzy.org/ Bart Trzynadlowski] for his documentation about the mapper used in Super Street Fighter II and 68000 undocumented behaviour.
+ * [http://pasti.fxatari.com/68kdocs/ Jorge Cwik] for his work on some 68000 undocumented aspects.
+ * [http://mamedev.emulab.it/haze/ Haze] for having found and documented many unlicensed game protections.
  * Notaz & Stef for sharing the source code of their respective emulators, Picodrive and Gens, which were also great sources of inspiration.
  * Steve Snake, author of [http://www.eidolons-inn.net/tiki-index.php?page=Kega Kega] and AamirM, author of [http://aamirm.hacking-cult.org/ Regen], for sharing some of their findings.
- * Charles MacDonald, again, for his excellent documentation about the Sega Genesis hardware and for having designed such a great emulator in the first place (your VDP renderer rules !)
- * [http://www.spritesmind.net/_GenDev/forum/ Spritesmind] & [http://www.smspower.org/ SMS Power] forums members for their technical help
+ * Charles MacDonald, again, for his excellent documentation about the Sega Genesis hardware and for having designed such a great emulator in the first place (your VDP renderer rules).
+ * [http://www.spritesmind.net/_GenDev/forum/ Spritesmind] & [http://www.smspower.org/ SMS Power] forums members for their technical help.
 
 
 == Gamecube/Wii ports ==
