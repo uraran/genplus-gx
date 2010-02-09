@@ -3,57 +3,51 @@
 
 == Choose a version ==
 
-Gamecube and Wii applications generally come in the form of .dol files.
+Gamecube and Wii applications usually come in the form of .dol files.
 
-Once you have downloaded and decompressed the archive, you get two versions of the emulator:
+Once you have downloaded and decompressed the archive, you should get two versions of the emulator:
 
- * genplus_cube.dol is the version running in Gamecube mode. This can be loaded on a Gamecube or on a Wii using Gamecube compatible mode.
+ * genplus_cube.dol is the version running in Gamecube mode. This can be loaded on a Gamecube or on a Wii using Gamecube compatibility mode.
 
- * genplus_wii.dol is the version running in Wii mode. This can only be loaded on a Wii and provide extra features such as support for up to 8players and wiimote 
+ * genplus_wii.dol is the version running in Wii mode. This can only be loaded on a Wii. 
 
   
   
-== How to load the emulator ==
+== How to run the emulator ==
 
 === on the Wii ===
 
-The easiest way to load & run the emulator on the Wii is to install the [http://hbc.hackmii.com/ Homebrew Channel].
-
-Once you are done, simply copy the /apps directory and his content (included in the release) to the root of the SDCARD.
+The easiest way to load & run the emulator on the Wii is to install the [http://hbc.hackmii.com/ Homebrew Channel]. Once you are done, simply copy the /apps directory and his content (included in the release) to the root of the SDCARD.
 
 http://wiibrew.org/w/images/thumb/f/fb/Homebrew_channel_logo.png/200px-Homebrew_channel_logo.png
 
-There are other ways to run .dol files on the Wii like building a dedicated channel, running the [http://wiibrew.org/wiki/Twilight_Hack Twilight Hack] or using other DOL loader.
-
-Feel free to visit http://www.wiibrew.org for additional informations.
+There are other ways to run .dol files on the Wii like building a dedicated channel or using an alternate DOL loader. Feel free to visit http://www.wiibrew.org for additional informations.
 
 
 === on the Gamecube ===
 
-There are several [http://www.gc-linux.org/wiki/Booting_GameCube_Linux methods] to load .dol files on the Gamecube (or on the Wii in Gamecube compatibilty mode)
+There are several [http://www.gc-linux.org/wiki/Booting_GameCube_Linux methods] to load .dol files on the Gamecube:
  
  * via a SD-adapter and [http://www.gc-linux.org/wiki/SDload SDLOAD]
  * via a [http://www.gc-linux.org/wiki/Building_a_Bootable_Disc bootable disc]
  * via [http://www.gc-linux.org/wiki/PSOload streaming]
 
-http://modyawii.wiinewz.com/images/sdcard.jpg
-
-More detailled informations [http://modyawii.wiinewz.com/ here] and on [http://www.tehskeen.com/modules.php?name=skeenews tehskeen]'s forums.
-
 
 
 == How to use the emulator ==
 
-This is a Sega Genesis/Megadrive emulator: it requires suitable ROM images in the form of .bin or .smd files but .zip files are also supported (as long as they contain a proper ROM file).
+This is a Sega *Genesis/Megadrive* emulator: it requires suitable ROM images in the form of .bin or .smd files but .zip files are also supported (as long as they contain a proper ROM file). Please note that .sms (Master System), .gg (Game Gear), .32x (32 X) or .iso (Mega CD) files are NOT supported.
 
-ROM files need to be loaded first: you can either load them from a DVD or from SDCARD. On the Gamecube, a modchip is required for DVD access and a SD-adapter is also required for SDCARD support.
+To play a game, ROM file need to be loaded first: you can either load from a DVD or from SDCARD (on the Gamecube, a SD-adapter is required ). On the Wii, you can also load ROM files from a connected USB device (support for USB 1.0 only, which means slower loading speeds).
 
-=== from SDCARD ===
+Please note that there is a limit of 1000 ROM files per directory so it's strongly advised to create subdirectories, reducing the number of roms per directory also helps improving browsing times.
 
-You should create a directory named */genplus* at the root of your SDCARD. Inside this directory, create a subdirectory named */roms* and place your roms inside that directory. You can create as many subdirectories as you want and reduce the number of roms per directory to improve loading times. Also note that if the /roms directory does not exist, the program will let you browse from the root of the SDCARD.
+=== from SD/USB ===
+
+First, make sure your device have at least one partition formatted to FAT (FAT16 or FAT32). Then, you should create a directory named */genplus* at the root of your device. Inside that directory, create another directory named */roms* where you can start copying your ROM files and subdirectories. If the /roms directory does not exist, the program will automatically let you browse from the root of the device. If the */genplus* directory does not exist, it will be automatically created.
 
 === from DVD ===
 
-The most important thing is that the DVD should be compliant with the ISO9660 format. Otherwise, ROM files can be put anywhere but again, it is better to use subdirectories and keep a limited amount of files in each directory.
+First, make sure your DVD is compliant with the ISO9660 format. ROM files can be put anywhere but again, it is better to use subdirectories and keep a limited amount of files in each directory.
 
-Wii user will need to install the [http://hackmii.com/2008/08/libdi-and-the-dvdx-installer/ DI layer interface] first and burn a suitable DVD. Please read the above article carefully to know how to install properly the DVDX stub and the required type for DVD, especially if you have a modchip.
+Wii users will need to install the [http://hackmii.com/2008/08/libdi-and-the-dvdx-installer/ DI layer interface] first and burn a suitable DVD. Please read the above article carefully to know about the required DVD types. The last version of the DVDX Installer can be found [http://bootmii.org/download/ here].
