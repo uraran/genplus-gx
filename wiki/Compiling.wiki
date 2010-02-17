@@ -21,7 +21,6 @@ However, I would appreciate if you respect the following points:
 First, you will have to download and install the following tools/libraries from the official Devkitpro ressource [http://sourceforge.net/projects/devkitpro/files/ page]:
 
  # the last version of DevkitPPC. Windows user should directly run the Automated Installer. During installation, make sure you get libogc and libfat libraries installed as well. They should be installed in C:/devkitpro/libogc/
-
  # the following portlibs (PPC versions): libpng & libtremor. They should be extracted in C:/devkitpro/portlibs/ppc/ and you should have the following directories once extracted:
 
  * /devkitpro/portlibs/ppc/include
