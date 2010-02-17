@@ -23,11 +23,11 @@ First, you will have to download and install the following tools/libraries from 
  # the last version of DevkitPPC. Windows user should directly run the Automated Installer. During installation, make sure you get libogc and libfat libraries installed as well. They should be installed in C:/devkitpro/libogc/
  # the following portlibs (PPC versions): libpng & libtremor. They should be extracted in C:/devkitpro/portlibs/ppc/ and you should have the following directories once extracted:
 
-/devkitpro/portlibs/ppc/include
+ * /devkitpro/portlibs/ppc/include
 
-/devkitpro/portlibs/ppc/include/tremor
+ * /devkitpro/portlibs/ppc/include/tremor
 
-/devkitpro/portlibs/ppc/lib
+ * /devkitpro/portlibs/ppc/lib
 
 Once you are done, if you haven't one yet, install a [http://en.wikipedia.org/wiki/Comparison_of_Subversion_clients SVN client] and use it to get the current [http://code.google.com/p/genplus-gx/source/checkout genplus-gx] source code from SVN.
 
