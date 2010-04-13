@@ -18,10 +18,10 @@ However, I would appreciate if you respect the following points:
 
 == How to Compile ? ==
 
-First, you will have to download and install the following tools/libraries from the official Devkitpro ressource [http://sourceforge.net/projects/devkitpro/files/ page]:
+First, you will have to download and install the following tools/libraries:
 
- # the last version of DevkitPPC. Windows user should directly run the Automated Installer. During installation, make sure you get libogc and libfat libraries installed as well. They should be installed in C:/devkitpro/libogc/
- # the following portlibs (PPC versions): libpng & libtremor. They should be extracted in C:/devkitpro/portlibs/ppc/ and you should have the following directories once extracted:
+ # from [http://sourceforge.net/projects/devkitpro/files/devkitPPC here], the last version of DevkitPPC. Windows user should directly run the Automated Installer. During installation, make sure you get libogc and libfat libraries installed as well. They should be installed in C:/devkitpro/libogc/
+ # from [http://sourceforge.net/projects/devkitpro/files/portlibs here], the following libraries: zlib, libpng & libtremor. Make sure you pick the precompiled PPC versions and extract them in C:/devkitpro/portlibs/ppc/. You should have the following directories once extracted:
 
  * /devkitpro/portlibs/ppc/include
 
@@ -29,9 +29,9 @@ First, you will have to download and install the following tools/libraries from 
 
  * /devkitpro/portlibs/ppc/lib
 
-Once you are done, if you haven't one yet, install a [http://en.wikipedia.org/wiki/Comparison_of_Subversion_clients SVN client] and use it to get the current [http://code.google.com/p/genplus-gx/source/checkout genplus-gx] source code from SVN.
+Once you are done, if you haven't one yet, install a [http://en.wikipedia.org/wiki/Comparison_of_Subversion_clients SVN client] and get the current [http://code.google.com/p/genplus-gx/source/checkout genplus-gx] source code from SVN.
 
-Finally, browse into genplus-gx/trunk/ and double-click on compile_all.bat.
+Finally, go into genplus-gx/trunk/ and run compile_all.bat.
 
 The DevkitPro download page provides all the precompiled libraries and include files required to compile the current source code of Genesis Plus GX. However, you could also get the current source code of the libraries, compile them yourself and install as specified (generally *make* then *make install*).
 
@@ -39,5 +39,6 @@ The following libraries are required:
 
  * [https://sourceforge.net/project/showfiles.php?group_id=114505&package_id=126925 libogc], from his [http://devkitpro.svn.sourceforge.net/viewvc/devkitpro/trunk/libogc/ SVN repository] 
  * [https://sourceforge.net/project/showfiles.php?group_id=114505&package_id=197264 libfat], from his [http://devkitpro.svn.sourceforge.net/viewvc/devkitpro/trunk/libfat/ SVN repository]
- * libtremor: OGG music file playback
+ * libtremor: OGG music file support
  * libpng: PNG image file support
+ * zlib: ZIP compressed file support
