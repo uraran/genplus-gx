@@ -14,7 +14,8 @@ http://gxdev.files.wordpress.com/2007/08/sega_megadrive_2.thumbnail.jpg
  * accurate chip synchronization (68k/Z80 access to YM2612/SN76489)
  * basic hardware latency emulation (VDP/68k, Z80/68k)
  * full overscan area (horizontal & vertical colored borders) emulation
- * full TMSS BIOS support
+ * internal BIOS support
+ * accurate TMSS emulation
  * experimental PICO hardware support
  * Blargg's software NTSC filters support
 
