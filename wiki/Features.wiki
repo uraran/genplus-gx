@@ -9,7 +9,7 @@ http://gxdev.files.wordpress.com/2007/08/sega_megadrive_2.thumbnail.jpg
 
  * NTSC (60Hz) & PAL (50Hz) hardware emulation
  * highly accurate 68k & Z80 CPU emulation
- * highly accurate VDP emulation (HBLANK, DMA, FIFO, HV interrupts, undocumented registers…)
+ * highly accurate VDP emulation (HBLANK, DMA, FIFO, HV interrupts, undocumented registers, display mid-line changes…)
  * cycle-accurate YM2612 emulation (FM synthesis is done at the original frequency, using FIR resampling)
  * accurate chip synchronization (68k/Z80 access to YM2612/SN76489)
  * basic hardware latency emulation (VDP/68k, Z80/68k)
