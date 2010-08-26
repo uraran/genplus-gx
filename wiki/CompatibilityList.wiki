@@ -12,7 +12,6 @@ On a side note, make sure you are always using good dumps, ROM files labelled as
 
 == Not Working ==
 
- * Mulan (Unl): hangs after title screen
  * Pocket Monsters II (Unl): hangs on title screen
  * Top Fighter 2000 MK VIII (Unl): no display
  * Top Shooter (Unl): no input
