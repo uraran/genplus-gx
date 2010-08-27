@@ -12,7 +12,6 @@ On a side note, make sure you are always using good dumps, ROM files labelled as
 
 == Not Working ==
 
- * Pocket Monsters II (Unl): hangs on title screen
  * Top Fighter 2000 MK VIII (Unl): no display
  * Top Shooter (Unl): no input
  * Chinese Fighter III (Unl): hangs on character selection screen
