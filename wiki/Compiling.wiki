@@ -8,12 +8,12 @@ You might want to compile the sourcecode yourself from current [http://code.goog
  * to test the current build before it is officially released
  * to implement your own features.
 
-However, I would appreciate if you respect the following points:
+However, I would appreciate if you *respect* the following points:
 
- * current SVN build should always be considered as unstable and work in progress: you are free to compile the current source code but don't complain about bugs and don't make any public binary distribution from this. You can always get the last stable code from the tagged versions.
+ * current SVN build should always be considered as unstable and work in progress: you are free to compile the current source code but don't complain about bugs and *don't make any public binary distribution from this*. You can always get the last stable code from the tagged versions.
 
 
- * you can modify the sourcecode as you want but in order to keep this project clean and structured, I would ask you to keep ANY private build for yourself and to avoid public distribution of derivative works. If you think the modification you made should be implemented in an official release, please contact me: I would eventually include them and obviously give all the credits to you.
+ * you can modify the sourcecode as you want but in order to keep this project clean and structured, I would ask you to *keep ANY private build for yourself and to avoid public distribution of derivative works*. If you think the modification you made should be implemented in an official release, please contact me: I would eventually include them and obviously give all the credits to you.
 
 
 == How to Compile ? ==
