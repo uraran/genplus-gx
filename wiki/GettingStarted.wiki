@@ -1,39 +1,23 @@
 #summary a quick installation guide
 #labels Featured
 
-== Choose a version ==
+== How to start the emulator ==
 
 Gamecube and Wii applications usually come in the form of .dol files.
 
 Once you have downloaded and decompressed the archive, you should get two versions of the emulator:
 
- * genplus_cube.dol is the version running in Gamecube mode. This can be loaded on a Gamecube or on a Wii using Gamecube compatibility mode.
+ * genplus_cube.dol is the application running in Gamecube mode.
 
- * genplus_wii.dol is the version running in Wii mode. This can only be loaded on a Wii. 
+ This can be loaded on a Game Cube by using various methods: see http://www.gc-linux.org/wiki/Getting_Started#Booting_Code for more details.
 
-  
-  
-== How to run the emulator ==
+ * genplus_wii.dol is the application running in Wii mode.
 
-=== on the Wii ===
+ The easiest way to run the emulator on a Wii is to install the Homebrew Channel (http://hbc.hackmii.com/). Once you are done, simply copy the /apps directory (included with this release) and its content to the root of your SD card or USB drive.
 
-The easiest way to load & run the emulator on the Wii is to install the [http://hbc.hackmii.com/ Homebrew Channel]. Once you are done, simply copy the /apps directory and his content (included in the release) to the root of the SDCARD.
+ There are other ways to run dol files on the Wii like building a dedicated channel or using an alternate DOL loader. Feel free to visit http://www.wiibrew.org for additional information. 
 
-http://wiibrew.org/w/images/thumb/f/fb/Homebrew_channel_logo.png/200px-Homebrew_channel_logo.png
-
-There are other ways to run .dol files on the Wii like building a dedicated channel or using an alternate DOL loader. Feel free to visit http://www.wiibrew.org for additional informations.
-
-
-=== on the Gamecube ===
-
-There are several [http://www.gc-linux.org/wiki/Booting_GameCube_Linux methods] to load .dol files on the Gamecube:
- 
- * via a SD-adapter and [http://www.gc-linux.org/wiki/SDload SDLOAD]
- * via a [http://www.gc-linux.org/wiki/Building_a_Bootable_Disc bootable disc]
- * via [http://www.gc-linux.org/wiki/PSOload streaming]
-
-
-
+----
 == How to use the emulator ==
 
 This is a Sega Mega Drive / Genesis only emulator: therefore, it requires suitable ROM images in the form of .bin, .gen, .md  or .smd files. Compressed .zip files are supported (as long as they contain a single and proper ROM file).
@@ -43,7 +27,7 @@ To play a game, you first need to load a ROM file from one of the supported devi
 
 
 There is a limit of 1000 ROM files per directory so it's strongly advised to create subdirectories. Reducing the number of ROM files per directory also improves menu interface speed and usability. 
-
+|
 === from SD ===
 
 The SD card should have at least one partition formatted to FAT (FAT16 or FAT32). If not found, the emulator automatically creates a directory named “/genplus” at the root of your SD card, as well as a few subdirectories, all required by the emulator to store important files (configuration, cheat files, SRAM files, screenshots, etc).
@@ -74,5 +58,5 @@ By default, the emulator will look for ROM files at  the root of your DVD but yo
 To use DVD on a non-chipped Wii, you should load the emulator through the Homebrew Channel and make sure to use the provided meta.xml file, which allows full access to the DVD drive.
 
 
-
+----
 *Please report to the included User Manual for additional informations.*
