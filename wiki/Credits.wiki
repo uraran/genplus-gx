@@ -10,7 +10,7 @@
  * original YM2612 core by Jarek Burczynski and Tatsuyuki Satoh ([http://mamedev.org/release.html MAME])
  * SN76489 core by [http://www.smspower.org/maxim/ Maxim]
  * SVP core by [http://notaz.gp2x.de/svp.php Notaz]
- * FIR Resampler & NTSC Video Filter by Shay Green ([http://www.fly.net/~ant/libs Blargg])
+ * FIR Resampler, Linear Blip Buffer & NTSC Video Filter by Shay Green ([http://www.fly.net/~ant/libs Blargg])
  * 3-Band EQ implementation by [http://www.musicdsp.org/archive.php?classid=3#236 Neil C ]
 
 ==== additional thanks to ====
