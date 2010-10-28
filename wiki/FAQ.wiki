@@ -42,6 +42,11 @@ You must first configure the type of controller you want to use for each player.
 Any additional Wii remote must be permanently registered in your Wii system settings, otherwise it cannot be detected by homebrew applications. Go back to the Wii system menu and register each Wii remote using the red SYNC buttons, as explained in your Wii user manual.
 ----
 
+==== _I'm trying to use ??? feature and have put all the required files as described in the User Manual but it doesn't seem to work. What am I doing wrong ?_ ====
+
+Make sure you disable the "Hide Known Extension" feature in your OS then verify again if the required files have the proper name and extension.
+----
+
 ==== _How can I play 32X, Mega CD, etc... games ?_ ====
 
 You can't. This program currently only emulates Genesis & Mega Drive hardware. Other system might be added in the future but it's actually not high priority.
