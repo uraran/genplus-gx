@@ -3,7 +3,8 @@
 ----
 ==== _The emulator does not start and hangs on a black screen when loaded on my Wii._ ====
 
-Use the Homebrew Channel to launch this program on your Wii, using the provided meta.xml file. If you installed it as a standalone channel or are using a different loader, you might have modified or deleted required system files (IOS), which could prevent the application from starting.
+Use the Homebrew Channel to launch this program on your Wii, using the provided meta.xml file. If you installed it as a standalone channel or are using a different loader, you might have modified or deleted required system files (IOS), which could prevent the application from starting. If you have unsupported devices connected to the Game Cube ports or USB ports, you might want to remove them.
+
 ----
 ==== _When I try to load ROM files from my SD card or USB drive, no files are found or an error message occurs._ ====
 
@@ -11,7 +12,7 @@ Make sure you have at least one FAT (FAT16 or FAT32) partition on your device.
 ----
 ==== _My USB2 compatible drive does not seem to be detected, is that normal ?_ ====
 
-USB2 compatibility requires IOS58 to be installed in your system (it usually came with recent System Menu updates). You must also make sure the Homebrew Channel is using this IOS (reinstall HBC if it doesn't) and you are using the provided meta.xml to load the emulator.
+USB2 compatibility requires IOS58 to be installed in your system (it usually came with recent System Menu updates). You must also make sure the Homebrew Channel is using this IOS (reinstall HBC if it doesn't) and you are using the provided meta.xml to load the emulator. Please note that you cannot connect both USB ports at the same time.
 ----
 ==== _I can not load ROM files from the DVD, an error message occurs saying it can not be mounted or no valid DVD was found._ ====
 
