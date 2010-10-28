@@ -13,7 +13,7 @@ Once you have downloaded and decompressed the archive, you should get two versio
 
  * genplus_wii.dol is the application running in Wii mode.
 
- The easiest way to run the emulator on a Wii is to install the Homebrew Channel (http://hbc.hackmii.com/). Once you are done, simply copy the /apps directory (included with this release) and its content to the root of your SD card or USB drive.
+ The easiest way to run the emulator on a Wii is to install the [http://hbc.hackmii.com/ Homebrew Channel]. Once you are done, simply copy the /apps directory (included with this release) and its content to the root of your SD card or USB drive.
 
  There are other ways to run dol files on the Wii like building a dedicated channel or using an alternate DOL loader. Feel free to visit http://www.wiibrew.org for additional information. 
 
