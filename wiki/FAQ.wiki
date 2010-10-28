@@ -53,7 +53,7 @@ Make sure you disable the "Hide Known Extension" feature in your OS then verify 
 You can't. This program currently only emulates Genesis & Mega Drive hardware. Other system might be added in the future but it's actually not high priority.
 ----
 
-==== _Hey, I have a very original idea. What about adding a cool feature like (insert anything) ? In my opinion, the emulator could be perfect with that feature_. ====
+==== _Hey, I have a very original idea. What about adding a cool feature like (insert anything) ? I think the emulator cannot be perfect without that feature_. ====
 
 You can always make an enhancement request in the Issue page on this site. However, if something has not been implemented yet, it has very likely a good reason not to be. Some stuff need time to work on, while others are simply no interest to me. As a general rule, I prefer focusing myself on the emulation core rather than features only designed to make the emulator interface "cooler" or "easier" to use.
 ----
