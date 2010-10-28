@@ -47,7 +47,7 @@ Any additional Wii remote must be permanently registered in your Wii system sett
 Make sure you disable the "Hide Known Extension" feature in your OS then verify again if the required files have the proper name and extension.
 ----
 
-==== _How can I play 32X, Mega CD, etc... games ?_ ====
+==== _How can I play 32X, Mega CD, Master System,... games in this emulator ?_ ====
 
 You can't. This program currently only emulates Genesis & Mega Drive hardware. Other system might be added in the future but it's actually not high priority.
 ----
