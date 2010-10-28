@@ -1,13 +1,13 @@
-#summary Known working & non-working games
+#summary A list of known non-working games
 #labels Featured
 
-Genesis Plus's compatibility should be quite high, let's say 99.9% of known roms are working without any graphical glitches or lockup. The only unsupported ones are a few unlicensed/pirates games which require some custom cartridge hardware currently unemulated. 
+Genesis Plus compatibility should be quite high, let's say 99.9% of known games are working without any graphical glitches or lockup. The only unsupported ones are a few unlicensed/pirates games which require some custom cartridge hardware that are not currently emulated. 
 
 
-I personnaly tested many games to be sure they all work like on original hardware, however, it is impossible for me to test all games *from start to end* so feel free to add comments if you found a specific game not running properly with this emulator.
+I personally tested many games to be sure they all work like on original hardware, however, it is impossible for me to test all games *from start to end* so feel free to add comments or fill an issue request if you found a specific game not running properly with this emulator.
 
 
-On a side note, make sure you are always using good dumps, ROM files labelled as bad dump (b1, b2,...) are generally known to cause problem (even on real hardware).
+On a side note, make sure you are always using good dumps, ROM files labeled as bad dump ,"fixed" or hacked (b1, f1, h1, ...), can generally cause issues (even on real hardware).
 
 
 == Not Working ==
