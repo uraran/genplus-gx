@@ -46,4 +46,4 @@
  * wintermute for [http://www.devkitpro.org/ devkitpro] & [http://www.devkitpro.org/category/devkitppc/ devkitPPC]
  * [http://debugmo.de/ tmbinc] for having opened the way to the Gamecube scene
  * [http://hackmii.com/ Twiizer team] for all their contribution to the Wii scene
- * Brakken & [http://www.tehskeen.com Tehskeen's] forum members for their feedback, support and donations !
+ * Brakken & former Tehskeen's forum members for their feedback, support and donations !
