@@ -1,4 +1,5 @@
 #summary Frequently Asked Questions.
+#labels Featured
 ----
 ==== _The emulator does not start and hangs on a black screen when loaded on my Wii._ ====
 
