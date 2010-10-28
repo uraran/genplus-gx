@@ -4,12 +4,15 @@
 
 Use the Homebrew Channel to launch this program on your Wii, using the provided meta.xml file. If you installed it as a standalone channel or are using a different loader, you might have modified or deleted required system files (IOS), which could prevent the application from starting.
 ----
-==== _When I try to load ROM files from USB drive or SD card, no files are found or an error message occurs._ ====
+==== _When I try to load ROM files from my SD card or USB drive, no files are found or an error message occurs._ ====
 
 Make sure you have at least one FAT (FAT16 or FAT32) partition on your device.
 ----
+==== _My USB2 compatible drive does not seem to be detected, is that normal ?_ ====
 
-==== _How can I load ROM files from a DVD ?_ ====
+USB2 compatibility requires IOS58 to be installed in your system (it usually came with recent System Menu updates). You must also make sure the Homebrew Channel is using this IOS (reinstall HBC if it doesn't) and you are using the provided meta.xml to load the emulator.
+----
+==== _I can not load ROM files from the DVD, an error message occurs saying it can not be mounted or no valid DVD was found._ ====
 
 First, make sure the DVD has been formatted in the expected format (ISO9960/Joliet). Then, your console must be able to read burned DVD: on a non-chipped Wii, you should use the Homebrew Channel and the provided meta.xml file, which enables full access to the DVD drive, without requiring a modchip.
 ----
