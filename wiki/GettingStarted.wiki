@@ -27,7 +27,7 @@ To play a game, you first need to load a ROM file from one of the supported devi
 
 
 There is a limit of 1000 ROM files per directory so it's strongly advised to create subdirectories. Reducing the number of ROM files per directory also improves menu interface speed and usability. 
-|
+
 === from SD ===
 
 The SD card should have at least one partition formatted to FAT (FAT16 or FAT32). If not found, the emulator automatically creates a directory named “/genplus” at the root of your SD card, as well as a few subdirectories, all required by the emulator to store important files (configuration, cheat files, SRAM files, screenshots, etc).
