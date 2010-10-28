@@ -7,73 +7,71 @@ http://gxdev.files.wordpress.com/2007/08/sega_megadrive_2.thumbnail.jpg
 
 === Very Accurate & Full Speed Sega Genesis/Megadrive emulation ===
 
- * NTSC (60Hz) & PAL (50Hz) hardware emulation
- * highly accurate 68000 & Z80 CPU emulation
- * highly accurate VDP emulation (HBLANK, DMA, FIFO, HV interrupts, undocumented registers, display mid-line changes…)
- * cycle-accurate YM2612 emulation (FM synthesis is done at the original frequency, using FIR resampling)
- * cycle-accurate chip synchronization (68000/Z80/YM2612/SN76489)
- * basic hardware latency emulation (VDP/68k, Z80/68k)
- * full overscan area (horizontal & vertical colored borders) emulation (optional)
- * accurate TMSS model emulation incl. internal BIOS support (optional)
- * Blargg's software NTSC filters support (optional)
- * PICO emulation (partial)
+ * NTSC (60Hz) & PAL (50Hz) hardware emulation 
+ * highly accurate 68000 & Z80 CPU emulation 
+ * highly accurate VDP emulation (HBLANK, DMA, FIFO, HV interrupts, undocumented registers, mid-line display status changes…) 
+ * cycle-accurate YM2612 emulation (FM synthesis is done at the original frequency, using FIR resampling) 
+ * cycle-accurate chip synchronization (68000/Z80/YM2612/SN76489) 
+ * basic hardware latency emulation (VDP/68k, Z80/68k) 
+ * full overscan area emulation (horizontal & vertical color borders) 
+ * accurate TMSS model emulation incl. internal BIOS support
+ * Blargg's software NTSC filters support 
+ * preliminary PICO emulation 
+
 
 http://gxdev.files.wordpress.com/2007/12/street.gif?w=320&h=240
 
 === Support for various peripherals ===
  * 3-buttons & 6-buttons controllers
- * Sega Team Player & EA 4-Way Play multitap adapters
- * Sega Menacer & Konami Justifier lightguns
+ * Sega Team Player & EA 4-Way Play multi-tap adapters
+ * Sega Menacer & Konami Justifier light guns
  * Sega Mouse
 
 http://gxdev.wordpress.com/files/2008/08/menacer.jpg
 
 === Support for various cartridges extra hardware ===
- * SVP DSP (Virtua Racing)
- * J-Cart adapter (Micro Machines & Pete Sampras series, Super Skidmarks)
- * SRAM chips (up to 64kB)
- * serial EEPROM chips (all known chips)
- * ROM bankswitch hardware (Super Street Fighter 2)
- * ROM/SRAM bankswitch hardware (Phantasy Star 4, Legend of Thor, Sonic the Hedgehog 3)
- * most banking & copy protection devices used in unlicensed/pirate cartridges
- * native Game Genie & Action Replay hardware emulation
- * Lock-On hardware emulation
- * support for ROM image up to 10MB (Ultimate MK3 hack)
+ * SVP DSP (Virtua Racing) 
+ * J-Cart adapter (Micro Machines & Pete Sampras series, Super Skidmarks) 
+ * SRAM chips (up to 64kB) 
+ * serial EEPROM chips (all known chips) 
+ * ROM bankswitch hardware (Super Street Fighter 2) 
+ * SRAM bankswitch hardware (Phantasy Star 4, Legend of Thor, Sonic the Hedgehog 3) 
+ * most banking & copy protection devices used in unlicensed/pirate cartridges 
+ * native Game Genie & Action Replay hardware emulation 
+ * Lock-On hardware emulation 
+ * support for ROM image up to 10MB (Ultimate MK3 hack) 
+
 
 http://gxdev.wordpress.com/files/2008/08/vracing.png
 
 === Gamecube/Wii generic features ===
 
- * fully featured & optimized Graphical User Interface
- * stereo sound (@48 kHz)
- * optimized GX video rendering engine
+ * fully featured & optimized Graphical User Interface 
+ * 48 kHz stereo sound
+ * optimized GX video rendering engine 
  * 100% smooth video & audio synchronization
- * 50/60 Hz video output support
- * native low-resolution (interlaced & non-interlaced) video modes support
- * high-resolution (480i/576i/480p) video modes support
- * hardware bilinear filtering (optional)
- * configurable sound output mixing (FM/PSG levels) and filtering (Low-Pass filter & 3-Band equalizer)
- * 1~4 Players support
- * automatic SRAM and Savestate files (optional)
- * load ROM files from SD or DVD
- * support for zipped (.zip), raw (.bin, .gen, .md) and interleaved (.smd) ROM files
- * ROM internal header information
- * ROM screenshot capture function
- * Game Genie codes support
- * Cartridge "hot-swapping" (optional)
+ * 50/60 Hz video output support 
+ * original low-resolution video modes support (interlaced & non-interlaced)
+ * high-resolution video modes support (480i/576i/480p)
+ * hardware bilinear filtering 
+ * configurable sound mixer (FM/PSG levels) and filtering (Low-Pass filter & 3-Band equalizer) 
+ * 1~4 Players support 
+ * automatic SRAM and State files loading/saving
+ * automatic ROM loading
+ * ROM files loading history
+ * load ROM files from SD/SDHC or DVD 
+ * support for zipped (.zip), raw (.bin, .gen, .md) and interleaved (.smd) ROM files 
+ * internal ROM header information display
+ * internal ROM screenshot capture 
+ * Game Genie & Pro Action Replay codes support 
+ * Cartridge "hot-swapping" 
+
 
 === Wii extra features ===
- * 1~8 Players support
- * Wiimote, Nunchuk & Classic controllers support
- * Wiimote IR support for lightguns emulation
- * load ROM files from USB hard drives (USB2 is supported through IOS202)
+ * up to 8 Players support 
+ * Wii Remote, Nunchuk & Classic controllers support 
+ * Wii Remote IR support for light guns
+ * load ROM files from USB drives (USB2 support through IOS58) 
+
 
 http://gxdev.files.wordpress.com/2008/08/wiimote.jpg?w=240&h=241
-
-=== What's not emulated ===
- * VDP undocumented modes (Mode 4, TM9918-like mode)
- * VDP debug registers 
- * "pixel-accurate" rendering (mid-line palette changes, CRAM flickering...)
- * YM2612 Busy Status flag
-
-Note: These features are not used by any official games and are only listed here as a reminder.
