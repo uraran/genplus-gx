@@ -30,6 +30,7 @@
  * current version, Wii port, generic GUI design & coding by eke-eke
  * based on the original Gamecube port from softdev, honkeykong & markcube
  * original icon, logo & button design by [http://llref.emutalk.net/ LowLines]
+ * background credit picture by [http://orioto.deviantart.com/ Orioto]
  * Memory Card icon design by [http://www.tehskeen.net brakken]
  * [http://chishm.drunkencoders.com/libfat/ libFAT] by Chism
  * [http://www.wiiuse.net/ wiiuse] library by Michael Laforest (para)
