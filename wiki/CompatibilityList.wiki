@@ -1,7 +1,7 @@
 #summary A list of known non-working games
 #labels Featured
 
-Genesis Plus compatibility should be quite high, let's say 99.9% of known games are working without any graphical glitches or lockup. The only unsupported ones are a few unlicensed/pirates games which require some custom cartridge hardware that are not currently emulated. 
+Genesis Plus compatibility is now very close to 100%, which means that all known games are working without any graphical glitches or lockup. The only unsupported ones are listed below and probably didn't work on a real Mega Drive either. 
 
 
 I personally tested many games to be sure they all work like on original hardware, however, it is impossible for me to test all games *from start to end* so feel free to add comments or fill an issue request if you found a specific game not running properly with this emulator.
@@ -12,10 +12,8 @@ On a side note, make sure you are always using good dumps, ROM files labeled as 
 
 == Not Working ==
 
- * Top Fighter 2000 MK VIII (Unl): no display
- * Top Shooter (Unl): no input
- * Chinese Fighter III (Unl): hangs on character selection screen
- * Sonic Jam 6 (Unl): don't boot
+ * Top Shooter (Unl): no input (runs on genesis-like arcade hardware)
+ * Sonic Jam 6 (Unl): don't boot (no valid code in ROM, probably a bad dump)
 
 
 == Working ==
