@@ -12,7 +12,7 @@ On a side note, make sure you are always using good dumps, ROM files labeled as 
 
 == Not Working ==
 
- * Top Shooter (Unlicensed) - no input: this game was initially running on an arcade board "based" on Genesis hardware and uses additional ports for buttons/coins. There is some code inside the ROM to read normal controllers but it seems unactivated, maybe the original Arcade board had Genesis connectors as well and could be configured to use them).
+ * Top Shooter (Unlicensed) - no input: this game was initially running on an arcade board "based" on Genesis hardware and uses additional ports for buttons/coins. There is some code inside the ROM to read normal controller ports but it seems unactivated, maybe the original Arcade board had Genesis connectors as well and could be configured to use them.
 
  * Sonic Jam 6 (Unlicensed) - don't boot: the game doesn't point to valid code and is probably a bad dump. A fixed ROM can be found though, maybe it's the "correct" dump.
 
