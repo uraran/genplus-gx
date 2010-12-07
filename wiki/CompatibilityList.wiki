@@ -12,8 +12,9 @@ On a side note, make sure you are always using good dumps, ROM files labeled as 
 
 == Not Working ==
 
- * Top Shooter (Unl): no input (runs on genesis-like arcade hardware)
- * Sonic Jam 6 (Unl): don't boot (no valid code in ROM, probably a bad dump)
+ * Top Shooter (Unl): no input. This game runs on an Arcade board "based" on Genesis hardware and uses additional ports for buttons/coins. There is some code inside the ROM to read normal controllers but it seems unactivated, maybe the original Arcade board had Genesis connectors as well and could be configured to use them).
+
+ * Sonic Jam 6: Don't boot. The ROM points to invalid code, it's probably a bad dump. A fixed ROM dump can be found though, maybe it's the "correct" one.
 
 
 == Working ==
