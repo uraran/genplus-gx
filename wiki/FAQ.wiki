@@ -6,7 +6,7 @@
 Use the Homebrew Channel to launch this program on your Wii, using the provided meta.xml file. If you installed it as a standalone channel or are using a different loader, you might have modified or deleted required system files (IOS), which could prevent the application from starting. If you have unsupported devices connected to the Game Cube ports or USB ports, you might want to remove them.
 
 ----
-==== _The emulator loads fine but randomly freeze (no input response) or crashes (exception screen) in the menu or during game._ ====
+==== _The emulator loads fine but randomly freeze (no input response) or crashes (DSI exception screen) in the menu or during game._ ====
 
 Sadly, there is a bug in the Homebrew Channel (as of 1.0.7) when using _no_ios_reload_ which can cause such issues when your Wifi router is off. Either always have your Wifi connected or edit the meta.xml file to remove the line with _no_ios_reload/_. Note that the bug apparently sometime occurs when Wifi is started and you launch the application before network is fully initialized, pretty much depending on when HBC exited in the process. The safest way is to disable the _no_ios_reload_ feature that is pretty unstable in the current state. You won't have any DVD support (without modchip) anymore though.
 
