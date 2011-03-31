@@ -20,7 +20,9 @@ Once you have downloaded and decompressed the archive, you should get two versio
 ----
 == How to use the emulator ==
 
-This is a Sega Mega Drive / Genesis only emulator: therefore, it requires suitable ROM images in the form of .bin, .gen, .md  or .smd files. Compressed .zip files are supported (as long as they contain a single and proper ROM file).
+Genesis Plus GX supports Sega Mega Drive / Genesis & Master System game images. Therefore, ROM files must come in the form of RAW .bin, .gen, .md, .smd or .sms files. Compressed .zip files are also supported as long as they contain a single ROM file in a supported format.
+
+Genesis Plus GX automatically triggers Master System compatibility mode when it detects a ROM file with .sms extension. 
 
 
 To play a game, you first need to load a ROM file from one of the supported devices: you can either load it from DVD, SD card or USB drive (Wii only).
