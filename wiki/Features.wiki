@@ -17,7 +17,7 @@ http://gxdev.files.wordpress.com/2007/08/sega_megadrive_2.thumbnail.jpg
  * internal OS ROM support, including accurate TMSS model emulation
  * Blargg's software NTSC filters support 
  * preliminary PICO emulation 
- * Master System compatibility mode emulation, including Mode4/Mode5 support
+ * Master System compatibility mode, including Mode4/Mode5 support
 
 
 http://gxdev.files.wordpress.com/2007/12/street.gif?w=320&h=240
