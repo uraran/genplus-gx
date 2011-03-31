@@ -17,7 +17,7 @@ Genesis Plus GX compatibility with Master System games should be the same as Pow
 In particular, following games are not working correctly with Power Base Converter (and Genesis Plus GX):
 
 
-=== games requiring BIOS to initialize VDP registers ===
+=== games requiring BIOS to initialize VDP registers === 
  * California Games II
  * Speed Ball
 
