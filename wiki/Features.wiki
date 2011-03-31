@@ -14,7 +14,7 @@ http://gxdev.files.wordpress.com/2007/08/sega_megadrive_2.thumbnail.jpg
  * cycle-accurate chip synchronization (68000/Z80/YM2612/SN76489) 
  * basic hardware latency emulation (VDP/68k, Z80/68k) 
  * full overscan area emulation (horizontal & vertical color borders) 
- * internal OS ROM support, including accurate TMSS model emulation (*)
+ * internal OS ROM support, including accurate TMSS model emulation
  * Blargg's software NTSC filters support 
  * preliminary PICO emulation 
  * Master System compatibility mode emulation, including Mode4/Mode5 support
