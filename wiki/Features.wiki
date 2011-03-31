@@ -9,23 +9,31 @@ http://gxdev.files.wordpress.com/2007/08/sega_megadrive_2.thumbnail.jpg
 
  * NTSC (60Hz) & PAL (50Hz) hardware emulation 
  * highly accurate 68000 & Z80 CPU emulation 
- * highly accurate VDP emulation (HBLANK, DMA, FIFO, HV interrupts, undocumented registers, mid-line display status changes…) 
+ * highly accurate VDP emulation (Mode 4 & Mode 5, HBLANK, DMA, FIFO, HV interrupts, undocumented registers, mid-line display status changes…) 
  * cycle-accurate YM2612 emulation (FM synthesis is done at the original frequency, using FIR resampling) 
  * cycle-accurate chip synchronization (68000/Z80/YM2612/SN76489) 
  * basic hardware latency emulation (VDP/68k, Z80/68k) 
  * full overscan area emulation (horizontal & vertical color borders) 
- * accurate TMSS model emulation incl. internal BIOS support
+ * internal OS ROM support, including accurate TMSS model emulation (*)
  * Blargg's software NTSC filters support 
  * preliminary PICO emulation 
+ * Master System compatibility mode emulation, including Mode4/Mode5 support
 
 
 http://gxdev.files.wordpress.com/2007/12/street.gif?w=320&h=240
 
 === Support for various peripherals ===
- * 3-buttons & 6-buttons controllers
- * Sega Team Player & EA 4-Way Play multi-tap adapters
- * Sega Menacer & Konami Justifier light guns
+ * 2-buttons, 3-buttons & 6-buttons Control Pads 
+ * Sega Team Player & EA 4-Way Play multitaps
  * Sega Mouse
+ * Sega Paddle Control
+ * Sega Sports Pad
+ * Sega Light Phaser
+ * Sega Menacer 
+ * Konami Justifiers
+ * Sega Activator
+ * XE-1AP analog controller
+
 
 http://gxdev.wordpress.com/files/2008/08/menacer.jpg
 
@@ -35,8 +43,9 @@ http://gxdev.wordpress.com/files/2008/08/menacer.jpg
  * SRAM chips (up to 64kB) 
  * serial EEPROM chips (all known chips) 
  * ROM bankswitch hardware (Super Street Fighter 2) 
- * SRAM bankswitch hardware (Phantasy Star 4, Legend of Thor, Sonic the Hedgehog 3) 
- * most banking & copy protection devices used in unlicensed/pirate cartridges 
+ * SRAM bankswitch hardware (Phantasy Star 4, Legend of Thor, Sonic the Hedgehog 3)
+ * all known Master System cartridge mappers
+ * banking & copy protection devices used in all known unlicensed/pirate cartridges 
  * native Game Genie & Action Replay hardware emulation 
  * Lock-On hardware emulation 
  * support for ROM image up to 10MB (Ultimate MK3 hack) 
@@ -72,6 +81,6 @@ http://gxdev.wordpress.com/files/2008/08/vracing.png
  * Wii Remote, Nunchuk & Classic controllers support 
  * Wii Remote IR support for light guns
  * load ROM files from USB drives (USB2 support through IOS58) 
-
+ * USB mouse support for mouse emulation
 
 http://gxdev.files.wordpress.com/2008/08/wiimote.jpg?w=240&h=241
