@@ -1,4 +1,6 @@
+#summary An exhaustive list of what is actually implemented
 #labels Featured
+
 Genesis Plus main goal is to provide the most complete & accurate emulation of the Sega Genesis/Megadrive hardware.
 
 The original emulation core from [http://cgfm2.emuviews.com/ Charles Mac Donald] has been slightly modified and emulation bugs tracked down to improve overall accuracy and therefore compatibility, as well as adding emulation of various peripherals and extra hardware.
