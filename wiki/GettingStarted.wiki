@@ -1,4 +1,4 @@
-#summary a quick installation guide
+#summary A quick installation guide
 #labels Featured
 
 == How to start the emulator ==
