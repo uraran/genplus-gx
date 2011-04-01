@@ -31,7 +31,7 @@ Because of memory limitations, the emulator can only list up to 1000 ROM files p
 
 ==== _When I load a ROM, nothing happen. I can return to the emulator menu but the game does not play or make the emulator crash._ ====
 
-You probably tried to load an unsupported ROM file. The emulator only supports valid Genesis or Mega Drive binary (.bin, .gen, .md, .smd) or compressed (.zip) ROM files. Be careful that only one file per .zip archive is supported and .7z files are not supported. Lastly, make sure you are only using GOOD dumps, generally labeled as [!]. Bad dumps, hacked or fixed ROM files are subject to crash, even on real hardware, just get ride of them.
+You probably tried to load an unsupported ROM file. The emulator only supports valid Genesis or Mega Drive binary (.bin, .gen, .md, .smd), Master System binary (.sms) or compressed (.zip) ROM files of the previous types. Be careful that only one file per .zip archive is supported and .7z files are not supported. Lastly, make sure you are only using GOOD dumps, generally labeled as [!]. Bad dumps, hacked or fixed ROM files are subject to crash, even on real hardware, just get ride of them.
 ----
 
 ==== _I can hear the sound of the game I loaded but nothing is displayed but a black or distorted screen._ ====
@@ -54,9 +54,9 @@ Any additional Wii remote must be permanently registered in your Wii system sett
 Make sure you disable the "Hide Known Extension" feature in your OS then verify again if the required files have the proper name and extension.
 ----
 
-==== _How can I play 32X, Mega CD, Master System,... games in this emulator ?_ ====
+==== _How can I play 32X, Mega CD, Game Gear,... games in this emulator ?_ ====
 
-You can't. This program currently only emulates Genesis & Mega Drive hardware. Other system might be added in the future but it's actually not high priority.
+You can't. This program currently only emulates Genesis & Mega Drive hardware, including Master System compatibility mode which was originally implemented in hardware. Other system might be added in the future but it's actually not high priority.
 ----
 
 ==== _Hey, I have a very original idea. What about adding a cool feature like (insert anything) ? I think the emulator cannot be perfect without that feature_. ====
