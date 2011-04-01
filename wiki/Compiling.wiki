@@ -1,4 +1,6 @@
+#summary Build your own binary
 #labels Featured
+
 == Disclaimer ==
 
 This project is under the GPL licence, this means that the sourcecode should *always* be made available to anyone asking for it and should be included with any modified binaries.
