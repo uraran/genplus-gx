@@ -17,21 +17,21 @@ Genesis Plus GX compatibility with Master System games should be the same as Pow
 In particular, following games are not working correctly with Power Base Converter (and Genesis Plus GX):
 
 
-=== games requiring BIOS to initialize VDP registers === 
+==== _games requiring BIOS to initialize VDP registers_ ====
  * California Games II
  * Speed Ball
 
-=== games requiring extended VDP modes === 
+==== _games requiring extended VDP modes_ ====
  * Cosmic Spacehead
  * Excellent Dizzy Collection, The [Proto]
  * Fantastic Dizzy
 
-=== games requiring Master System VDP specific tricks === 
+==== _games requiring Master System VDP specific tricks_ ====
  * Bart vs. The Space Mutants (palette issue)
  * X-Men - Mojo World (palette issue)
  * Y'S (Japanese version only)
 
-=== games requiring old TMS9918-like VDP modes === 
+==== _games requiring old TMS9918-like VDP modes_ ====
  * Dr Hello
  * F-1 Spirit - The way to Formula-1
  * F16 Fighter
@@ -45,4 +45,4 @@ In particular, following games are not working correctly with Power Base Convert
  * The Three Dragon Story
  * Wonsiin
 
-For similar reasons, Game Gear (use VDP with larger color palette and additional hardware) as well as SG-1000 (use TMS9918) games are not supported !
+For similar reasons, Game Gear & SG-1000 games are not supported.
