@@ -1,6 +1,8 @@
 #summary Random snapshots from the emulator
 #labels Featured
 
+=== Mega Drive & Genesis games ===
+
 http://gxdev.wordpress.com/files/2009/11/aladdin-usa.png
 http://gxdev.wordpress.com/files/2009/11/akumajou-dracula-vampire-killer-japan.png
 http://gxdev.wordpress.com/files/2009/11/alien-soldier-japan.png
