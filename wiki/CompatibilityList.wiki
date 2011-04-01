@@ -1,4 +1,4 @@
-#summary A list of known non-working games
+#summary Working and non-working games
 #labels Featured
 
 == Mega Drive & Genesis games ==
@@ -44,3 +44,5 @@ In particular, following games are not working correctly with Power Base Convert
  * Super Boy II
  * The Three Dragon Story
  * Wonsiin
+
+For similar reasons, Game Gear (use VDP with larger color palette and additional hardware) as well as SG-1000 (use TMS9918) games are not supported !
