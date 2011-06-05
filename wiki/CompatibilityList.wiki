@@ -29,6 +29,7 @@ In particular, following games are not working correctly with Power Base Convert
 
 ==== _games requiring Master System VDP specific tricks_ ====
  * Bart vs. The Space Mutants (palette issue)
+ * Earthworm Jim (zoomed sprites issue)
  * X-Men - Mojo World (palette issue)
  * Y'S (Japanese version only)
 
