@@ -25,6 +25,7 @@ In particular, following games are not working correctly with Power Base Convert
  * Cosmic Spacehead
  * Excellent Dizzy Collection, The [Proto]
  * Fantastic Dizzy
+ * Micro Machines
 
 ==== _games requiring Master System VDP specific tricks_ ====
  * Bart vs. The Space Mutants (palette issue)
