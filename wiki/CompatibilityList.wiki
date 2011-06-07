@@ -17,7 +17,7 @@ Genesis Plus GX compatibility with Master System games should be the same as Pow
 In particular, following games are not working correctly with Power Base Converter (and Genesis Plus GX):
 
 
-==== _games requiring BIOS to initialize VDP registers_ ====
+==== _games requiring Master System BIOS to initialize VDP registers_ ====
  * California Games II
  * Speed Ball
 
@@ -27,7 +27,7 @@ In particular, following games are not working correctly with Power Base Convert
  * Fantastic Dizzy
  * Micro Machines
 
-==== _games requiring Master System VDP specific tricks_ ====
+==== _games requiring Master System VDP specific features_ ====
  * Bart vs. The Space Mutants (palette issue)
  * Earthworm Jim (zoomed sprites issue)
  * X-Men - Mojo World (palette issue)
