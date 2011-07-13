@@ -3,7 +3,20 @@
 
 == Disclaimer ==
 
-This project is released under a specific open-source license, which requires that the entire sourcecode should *always* be made available in case of modification and should *never* be used commercially. See license.txt and specific licensing disclaimer in the various source files for more informations about using them in your own project.
+This project is under the GPL licence, this means that the sourcecode should *always* be made available to anyone asking for it and should be included with any modified binaries.
+
+You might want to compile the sourcecode yourself from current [http://code.google.com/p/genplus-gx/source/checkout SVN] for various reasons:
+
+ * to test the current build before it is officially released
+ * to implement your own features.
+
+However, I would appreciate if you *respect* the following points:
+
+ * current SVN build should always be considered as unstable and work in progress: you are free to compile the current source code but don't complain about bugs and *don't make any public binary distribution from this*. You can always get the last stable code from the tagged versions.
+
+
+ * you can modify the sourcecode as you want but in order to keep this project clean and structured, I would ask you to *keep ANY private build for yourself and to avoid public distribution of derivative works*. If you think the modification you made should be implemented in an official release, please contact me: I would eventually include them and obviously give all the credits to you.
+
 
 == How to Compile ? ==
 
@@ -18,13 +31,9 @@ First, you will have to download and install the following tools/libraries:
 
  * /devkitpro/portlibs/ppc/lib
 
-Once you are done, if you haven't one yet, install a [http://en.wikipedia.org/wiki/Comparison_of_Subversion_clients SVN client] and get the source code for a specific version from SVN by using the following command line:
+Once you are done, if you haven't one yet, install a [http://en.wikipedia.org/wiki/Comparison_of_Subversion_clients SVN client] and get the current [http://code.google.com/p/genplus-gx/source/checkout genplus-gx] source code from SVN.
 
-"svn checkout http://genplus-gx.googlecode.com/svn/tags/XXXXX"
-
-where XXX is the version you want (browse Source tab for more informations)
-
-Finally, run compile_all.bat from the root of source directory.
+Finally, go into genplus-gx/trunk/ and run compile_all.bat.
 
 The DevkitPro download page provides all the precompiled libraries and include files required to compile the current source code of Genesis Plus GX. However, you could also get the current source code of the libraries, compile them yourself and install as specified (generally *make* then *make install*).
 
