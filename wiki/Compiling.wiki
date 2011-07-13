@@ -19,6 +19,7 @@ First, you will have to download and install the following tools/libraries:
  * /devkitpro/portlibs/ppc/lib
 
 Once you are done, if you haven't one yet, install a [http://en.wikipedia.org/wiki/Comparison_of_Subversion_clients SVN client] and get the source code for a specific version from SVN by using the following command line:
+
 "svn checkout http://genplus-gx.googlecode.com/svn/tags/XXXXX"
 
 where XXX is the version you want (browse Source tab for more informations)
