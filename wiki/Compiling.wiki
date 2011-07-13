@@ -5,7 +5,7 @@
 
 The sourcecode for a specific version is available under the Source tab.
 
-Up to version 1.5.0, most part of the code was released under the GPL license V2 and can be used under the term of that license. However, starting from 1.6.0, the code is now released under a specific open-source license, which requires that the entire sourcecode should *always* be made available in case of modifications and should *never* be used commercially. See license.txt and specific licensing disclaimer in the sourcecode for more informations.
+This project is released under a specific open-source license, which requires that the entire sourcecode should *always* be made available in case of modification and should *never* be used commercially. See license.txt and specific licensing disclaimer in the various source files for more informations about using them in your own project.
 
 == How to Compile ? ==
 
