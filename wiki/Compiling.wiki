@@ -3,8 +3,6 @@
 
 == Disclaimer ==
 
-The sourcecode for a specific version is available under the Source tab.
-
 This project is released under a specific open-source license, which requires that the entire sourcecode should *always* be made available in case of modification and should *never* be used commercially. See license.txt and specific licensing disclaimer in the various source files for more informations about using them in your own project.
 
 == How to Compile ? ==
@@ -20,8 +18,9 @@ First, you will have to download and install the following tools/libraries:
 
  * /devkitpro/portlibs/ppc/lib
 
-Once you are done, if you haven't one yet, install a [http://en.wikipedia.org/wiki/Comparison_of_Subversion_clients SVN client] and get the source code of the last version from SVN by using the following command line:
-svn checkout http://genplus-gx.googlecode.com/svn/tags/XXXXX
+Once you are done, if you haven't one yet, install a [http://en.wikipedia.org/wiki/Comparison_of_Subversion_clients SVN client] and get the source code for a specific version from SVN by using the following command line:
+"svn checkout http://genplus-gx.googlecode.com/svn/tags/XXXXX"
+
 where XXX is the version you want (browse Source tab for more informations)
 
 Finally, run compile_all.bat from the root of source directory.
