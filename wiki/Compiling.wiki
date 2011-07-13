@@ -3,7 +3,7 @@
 
 == Disclaimer ==
 
-This project is under the GPL licence, this means that the sourcecode should *always* be made available to anyone asking for it and should be included with any modified binaries.
+This project is under a specific open-source license, which implies that the sourcecode must *always* be made available with any modified binaries and should *not* be used in any commercial activity.
 
 You might want to compile the sourcecode yourself from current [http://code.google.com/p/genplus-gx/source/checkout SVN] for various reasons:
 
