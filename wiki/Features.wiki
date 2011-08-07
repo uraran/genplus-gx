@@ -7,7 +7,7 @@ The original emulation core from [http://cgfm2.emuviews.com/ Charles Mac Donald]
 
 http://gxdev.files.wordpress.com/2007/08/sega_megadrive_2.thumbnail.jpg
 
-=== Very Accurate & Full Speed Sega Genesis/Megadrive emulation ===
+=== Very Accurate & Full Speed Sega 8-bit / 16-bit emulation ===
 
  * Accurate emulation of SG-1000, Mark-III, Master System (I & II), Game Gear, Genesis & Mega Drive hardware models (incl. backwards compatibility modes)
  * NTSC (60Hz) & PAL (50Hz) hardware emulation 
