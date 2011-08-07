@@ -10,41 +10,43 @@ Off course, it is impossible for me to test all games *from start to end* so fee
 On a side note, make sure you are always using good dumps, ROM files labeled as bad dump ,"fixed" or hacked (b1, f1, h1, ...), generally cause issues (even on real hardware).
 
 
-== Master System games ==
+== SG-1000, Game Gear, Master System games ==
 
-Genesis Plus GX compatibility with Master System games should be the same as Power Base Converter compatibility. This means that approximately 95% of the Master System library is running, with a few games having issues because of Genesis lacking features of the original Master System (see below).
+Genesis Plus GX is able to reproduce accurately the behavior of several console models, which is required to assure 100% compatibility with all SG-1000, Master System & Game Gear released software, including demos and unlicensed games.
 
-In particular, following games are not working correctly with Power Base Converter (and Genesis Plus GX):
-
+The following Master System games are known to be working only on specific Master System hardware:
 
 ==== _games requiring Master System BIOS to initialize VDP registers_ ====
  * California Games II
  * Speed Ball
 
-==== _games requiring extended VDP modes_ ====
+==== _games incompatible with Genesis VDP_ ====
+ * Bart vs. The Space Mutants (palette issue)
+ * Earthworm Jim (zoomed sprites issue)
+ * X-Men - Mojo World (palette issue)
+ * Dr Hello (unsupported VDP mode)
+ * F-1 Spirit - The way to Formula-1 (unsupported VDP mode)
+ * F16 Fighter (unsupported VDP mode)
+ * F16 Fighting Falcon (unsupported VDP mode)
+ * FA Tetris (unsupported VDP mode)
+ * Flashpoint (unsupported VDP mode)
+ * Loretta no Shouzou - Sherlock Holmes (unsupported VDP mode)
+ * Penguin Adventure (unsupported VDP mode)
+ * Street Master (unsupported VDP mode)
+ * Super Boy II (unsupported VDP mode)
+ * The Three Dragon Story (unsupported VDP mode)
+ * Wonsiin (unsupported VDP mode)
+ * Cyborg Z (unsupported VDP mode)
+ * all SG-1000 games (unsupported VDP mode)
+
+==== _games requiring Master System II or Game Gear extended VDP modes_ ====
  * Cosmic Spacehead
  * Excellent Dizzy Collection, The [Proto]
  * Fantastic Dizzy
  * Micro Machines
 
-==== _games requiring Master System VDP specific features_ ====
- * Bart vs. The Space Mutants (palette issue)
- * Earthworm Jim (zoomed sprites issue)
- * X-Men - Mojo World (palette issue)
- * Y'S (Japanese version only)
+==== _games requiring Mark III or Master System I VDP limitation_ ====
+ * Y'S (Japanese version)
 
-==== _games requiring old TMS9918-like VDP modes_ ====
- * Dr Hello
- * F-1 Spirit - The way to Formula-1
- * F16 Fighter
- * F16 Fighting Falcon
- * FA Tetris
- * Flashpoint
- * Loretta no Shouzou - Sherlock Holmes
- * Penguin Adventure
- * Street Master
- * Super Boy II
- * The Three Dragon Story
- * Wonsiin
 
-For similar reasons, Game Gear & SG-1000 games are not supported.
+Game Gear games are only compatible with Game Gear hardware.
