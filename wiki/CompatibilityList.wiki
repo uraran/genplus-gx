@@ -47,6 +47,3 @@ The following Master System games are known to be working only on specific Maste
 
 ==== _games requiring Mark III or Master System I VDP limitation_ ====
  * Y'S (Japanese version)
-
-
-Game Gear games are only compatible with Game Gear hardware.
