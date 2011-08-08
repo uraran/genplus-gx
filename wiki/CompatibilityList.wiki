@@ -1,7 +1,7 @@
 #summary Working and non-working games
 #labels Featured
 
-Genesis Plus GX is able to emulate accurately several console hardware models, which makes it compatible with 100% of SG-1000, Master System, Game Gear, Genesis & Mega Drive released software, including demos, unlicensed & pirate games.
+Genesis Plus GX is able to accurately emulate various console hardware models, which makes it compatible with 100% of SG-1000, Master System, Game Gear, Genesis & Mega Drive released software, including demos, unlicensed & pirate games.
 
 This means that all these games have been verified to be working without any graphical glitches or lock-up but off course, it is impossible for me to test all games *from start to end* so feel free to report an issue if you found a specific game not running properly or accurately with this emulator.
 
