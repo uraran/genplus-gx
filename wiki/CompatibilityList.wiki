@@ -1,13 +1,18 @@
 #summary Working and non-working games
 #labels Featured
 
-== SG-1000, Game Gear, Master System games ==
+Genesis Plus GX is able to reproduce accurately the behavior of several console models, which makes it compatible with 100% of SG-1000, Master System, Game Gear, Genesis & Mega Drive released software, including demos, unlicensed & pirate games.
 
-Genesis Plus GX is able to reproduce accurately the behavior of several console models, which is required to assure 100% compatibility with all SG-1000, Master System & Game Gear released software, including demos and unlicensed games.
+This means that all these games have been verified to be working without any graphical glitches or lockup but off course, it is impossible for me to test all games *from start to end* so feel free to add comments or fill an issue request if you found a specific game not running properly or accurately with this emulator.
+
+On a side note, make sure you are always using good dumps, ROM files labeled as bad dump ,"fixed" or hacked (b1, f1, h1, ...), generally cause issues (even on real hardware).
+
+
+== SG-1000 games ==
 
 SG-1000 games are compatible with Mark-III and Master System hardware, using backwards compatibility mode (a custom BIOS is required on Game Gear). For correct color palette, use SG-1000 hardware.
 
-Game Gear games are only compatible with Game Gear hardware.
+== Master System games ==
 
 Master System games are compatible with Game Gear and Genesis hardware, using backwards compatibility mode. However, the following games are known to be working only on specific hardware:
 
@@ -46,11 +51,12 @@ Master System games are compatible with Game Gear and Genesis hardware, using ba
  * Y'S (Japanese version)
 
 
+== Game Gear games ==
+
+Game Gear games are only compatible with Game Gear hardware.
+
 
 == Mega Drive & Genesis games ==
 
-Genesis Plus GX is compatible with 100% of commercial, unlicensed & pirate Mega Drive & Genesis dumped games, which means that all these games have been verified to be working without any graphical glitches or lockup.
+Genesis & Mega Drive games are only compatible with Genesis hardware.
 
-Off course, it is impossible for me to test all games *from start to end* so feel free to add comments or fill an issue request if you found a specific game not running properly or accurately with this emulator.
-
-On a side note, make sure you are always using good dumps, ROM files labeled as bad dump ,"fixed" or hacked (b1, f1, h1, ...), generally cause issues (even on real hardware).
