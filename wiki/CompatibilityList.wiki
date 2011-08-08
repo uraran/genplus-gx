@@ -20,7 +20,7 @@ Master System games are compatible with Game Gear and Genesis hardware, using ba
  * Earthworm Jim (zoomed sprites issue)
  * X-Men - Mojo World (palette issue)
 
-==== _games requiring legacy VDP modes support_ ====
+==== _games requiring legacy VDP modes_ ====
 
  * Dr Hello
  * F-1 Spirit - The way to Formula-1
