@@ -1,20 +1,15 @@
 #summary Working and non-working games
 #labels Featured
 
-== Mega Drive & Genesis games ==
-
-Genesis Plus GX is compatible with 100% of commercial, unlicensed & pirate Mega Drive & Genesis dumped games, which means that all these games have been verified to be working without any graphical glitches or lockup.
-
-Off course, it is impossible for me to test all games *from start to end* so feel free to add comments or fill an issue request if you found a specific game not running properly or accurately with this emulator.
-
-On a side note, make sure you are always using good dumps, ROM files labeled as bad dump ,"fixed" or hacked (b1, f1, h1, ...), generally cause issues (even on real hardware).
-
-
 == SG-1000, Game Gear, Master System games ==
 
 Genesis Plus GX is able to reproduce accurately the behavior of several console models, which is required to assure 100% compatibility with all SG-1000, Master System & Game Gear released software, including demos and unlicensed games.
 
-The following Master System games are known to be working only on specific Master System hardware:
+SG-1000 games are compatible with Mark-III and Master System hardware, using backwards compatibility mode (a custom BIOS is required on Game Gear). For correct color palette, use SG-1000 hardware.
+
+Game Gear games are only compatible with Game Gear hardware.
+
+Master System games are compatible with Game Gear and Genesis hardware, using backwards compatibility mode. However, the following games are known to be working only on specific hardware:
 
 ==== _games requiring Master System BIOS to initialize VDP registers_ ====
  * California Games II
@@ -37,7 +32,6 @@ The following Master System games are known to be working only on specific Maste
  * The Three Dragon Story (unsupported VDP mode)
  * Wonsiin (unsupported VDP mode)
  * Cyborg Z (unsupported VDP mode)
- * all SG-1000 games (unsupported VDP mode)
 
 ==== _games requiring Master System II or Game Gear extended VDP modes_ ====
  * Cosmic Spacehead
@@ -47,3 +41,13 @@ The following Master System games are known to be working only on specific Maste
 
 ==== _games requiring Mark III or Master System I VDP limitation_ ====
  * Y'S (Japanese version)
+
+
+
+== Mega Drive & Genesis games ==
+
+Genesis Plus GX is compatible with 100% of commercial, unlicensed & pirate Mega Drive & Genesis dumped games, which means that all these games have been verified to be working without any graphical glitches or lockup.
+
+Off course, it is impossible for me to test all games *from start to end* so feel free to add comments or fill an issue request if you found a specific game not running properly or accurately with this emulator.
+
+On a side note, make sure you are always using good dumps, ROM files labeled as bad dump ,"fixed" or hacked (b1, f1, h1, ...), generally cause issues (even on real hardware).
