@@ -7,10 +7,15 @@ This means that all these games have been verified to be working without any gra
 
 On a side note, make sure you are always using good dumps: ROM files labelled as bad, "fixed" or hacked dumps (b1, f1, h1, ...), are known to cause issues, even on real hardware.
 
+== Mega Drive & Genesis games ==
 
-== SG-1000 games ==
+Genesis & Mega Drive games are only compatible with Genesis hardware.
 
-SG-1000 games are compatible with Mark-III and Master System hardware, using backwards compatibility mode (a custom BIOS, not available, is required on Game Gear). In order to display the correct colour palette, it is however recommended to use SG-1000 hardware.
+
+== Game Gear games ==
+
+Game Gear games are only compatible with Game Gear hardware.
+
 
 == Master System games ==
 
@@ -25,7 +30,7 @@ Master System games are compatible with Game Gear and Genesis hardware, using ba
  * Earthworm Jim (zoomed sprites issue)
  * X-Men - Mojo World (palette issue)
 
-==== _games requiring legacy VDP modes (not supported by Genesis VDP, only supported on Game Gear with custom BIOS)_ ====
+==== _games requiring legacy VDP modes (not supported by Genesis VDP or Game Gear with custom BIOS)_ ====
 
  * Dr Hello
  * F-1 Spirit - The way to Formula-1
@@ -51,11 +56,6 @@ Master System games are compatible with Game Gear and Genesis hardware, using ba
  * Y'S (Japanese version)
 
 
-== Game Gear games ==
+== SG-1000 games ==
 
-Game Gear games are only compatible with Game Gear hardware.
-
-
-== Mega Drive & Genesis games ==
-
-Genesis & Mega Drive games are only compatible with Genesis hardware.
+SG-1000 games are compatible with Mark-III and Master System hardware, using backwards compatibility mode (a custom BIOS, not available, is required on Game Gear). In order to display the correct colour palette, it is however recommended to use SG-1000 hardware.
