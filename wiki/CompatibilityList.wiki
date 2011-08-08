@@ -19,19 +19,22 @@ Master System games are compatible with Game Gear and Genesis hardware, using ba
  * Bart vs. The Space Mutants (palette issue)
  * Earthworm Jim (zoomed sprites issue)
  * X-Men - Mojo World (palette issue)
- * Dr Hello (unsupported VDP mode)
- * F-1 Spirit - The way to Formula-1 (unsupported VDP mode)
- * F16 Fighter (unsupported VDP mode)
- * F16 Fighting Falcon (unsupported VDP mode)
- * FA Tetris (unsupported VDP mode)
- * Flashpoint (unsupported VDP mode)
- * Loretta no Shouzou - Sherlock Holmes (unsupported VDP mode)
- * Penguin Adventure (unsupported VDP mode)
- * Street Master (unsupported VDP mode)
- * Super Boy II (unsupported VDP mode)
- * The Three Dragon Story (unsupported VDP mode)
- * Wonsiin (unsupported VDP mode)
- * Cyborg Z (unsupported VDP mode)
+
+==== _games requiring legacy VDP modes support_ ====
+
+ * Dr Hello
+ * F-1 Spirit - The way to Formula-1
+ * F16 Fighter
+ * F16 Fighting Falcon
+ * FA Tetris
+ * Flashpoint
+ * Loretta no Shouzou - Sherlock Holmes
+ * Penguin Adventure
+ * Street Master
+ * Super Boy II
+ * The Three Dragon Story
+ * Wonsiin
+ * Cyborg Z
 
 ==== _games requiring Master System II or Game Gear extended VDP modes_ ====
  * Cosmic Spacehead
