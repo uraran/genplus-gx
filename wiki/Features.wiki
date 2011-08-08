@@ -12,7 +12,7 @@ http://gxdev.files.wordpress.com/2007/08/sega_megadrive_2.thumbnail.jpg
  * Accurate emulation of SG-1000, Mark-III, Master System (I & II), Game Gear, Genesis & Mega Drive hardware models (incl. backwards compatibility modes)
  * NTSC (60Hz) & PAL (50Hz) hardware emulation 
  * highly accurate 68000 & Z80 CPU emulation 
- * highly accurate VDP emulation (Mode 4 & Mode 5, HBLANK, DMA, FIFO, HV interrupts, undocumented registers, mid-line display status changes…) 
+ * highly accurate VDP emulation (all rendering modes, HBLANK, DMA, FIFO, HV interrupts, undocumented registers, mid-line display status changes…) 
  * cycle-accurate YM2612 & YM2413 emulation (FM synthesis is done at the original frequency, using FIR resampling) 
  * cycle-accurate chip synchronization (68000/Z80/YM2612/SN76489) 
  * basic hardware latency emulation (VDP/68k, Z80/68k) 
