@@ -20,7 +20,7 @@ Master System games are compatible with Game Gear and Genesis hardware, using ba
  * Earthworm Jim (zoomed sprites issue)
  * X-Men - Mojo World (palette issue)
 
-==== _games requiring legacy VDP modes_ ====
+==== _games requiring legacy VDP modes (not supported by Genesis VDP, only supported on Game Gear by custom BIOS)_ ====
 
  * Dr Hello
  * F-1 Spirit - The way to Formula-1
@@ -36,13 +36,13 @@ Master System games are compatible with Game Gear and Genesis hardware, using ba
  * Wonsiin
  * Cyborg Z
 
-==== _games requiring Master System II or Game Gear extended VDP modes_ ====
+==== _games requiring extended VDP modes (Master System II & Game Gear only)_ ====
  * Cosmic Spacehead
  * Excellent Dizzy Collection, The [Proto]
  * Fantastic Dizzy
  * Micro Machines
 
-==== _games requiring Mark III or Master System I VDP limitation_ ====
+==== _games requiring original VDP limitation (Mark III & Master System I only)_ ====
  * Y'S (Japanese version)
 
 
