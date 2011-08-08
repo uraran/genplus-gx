@@ -1,16 +1,16 @@
 #summary Working and non-working games
 #labels Featured
 
-Genesis Plus GX is able to reproduce accurately the behavior of several console models, which makes it compatible with 100% of SG-1000, Master System, Game Gear, Genesis & Mega Drive released software, including demos, unlicensed & pirate games.
+Genesis Plus GX is able to emulate accurately several console hardware models, which makes it compatible with 100% of SG-1000, Master System, Game Gear, Genesis & Mega Drive released software, including demos, unlicensed & pirate games.
 
 This means that all these games have been verified to be working without any graphical glitches or lock-up but off course, it is impossible for me to test all games *from start to end* so feel free to report an issue if you found a specific game not running properly or accurately with this emulator.
 
-On a side note, make sure you are always using good dumps, ROM files labeled as bad dump ,"fixed" or hacked (b1, f1, h1, ...), generally cause issues (even on real hardware).
+On a side note, make sure you are always using good dumps: ROM files labelled as bad, "fixed" or hacked dumps (b1, f1, h1, ...), are known to cause issues, even on real hardware.
 
 
 == SG-1000 games ==
 
-SG-1000 games are compatible with Mark-III and Master System hardware, using backwards compatibility mode (a custom BIOS is required on Game Gear). In order to display correct colour palette, it is however recommended to use SG-1000 hardware.
+SG-1000 games are compatible with Mark-III and Master System hardware, using backwards compatibility mode (a custom BIOS, not available, is required on Game Gear). In order to display the correct colour palette, it is however recommended to use SG-1000 hardware.
 
 == Master System games ==
 
@@ -25,7 +25,7 @@ Master System games are compatible with Game Gear and Genesis hardware, using ba
  * Earthworm Jim (zoomed sprites issue)
  * X-Men - Mojo World (palette issue)
 
-==== _games requiring legacy VDP modes (not supported by Genesis VDP, only supported on Game Gear by custom BIOS)_ ====
+==== _games requiring legacy VDP modes (not supported by Genesis VDP, only supported on Game Gear with custom BIOS)_ ====
 
  * Dr Hello
  * F-1 Spirit - The way to Formula-1
