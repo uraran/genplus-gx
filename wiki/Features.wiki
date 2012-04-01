@@ -11,9 +11,9 @@ http://gxdev.files.wordpress.com/2007/08/sega_megadrive_2.thumbnail.jpg
 
  * Accurate emulation of SG-1000, Mark-III, Master System (I & II), Game Gear, Genesis & Mega Drive hardware models (incl. backwards compatibility modes)
  * NTSC (60Hz) & PAL (50Hz) hardware emulation 
- * highly accurate 68000 & Z80 CPU emulation 
- * highly accurate VDP emulation (all rendering modes, HBLANK, DMA, FIFO, HV interrupts, undocumented registers, mid-line display status changes…) 
- * cycle-accurate YM2612 & YM2413 emulation (FM synthesis is done at the original frequency, using FIR resampling) 
+ * highly accurate 68000 & Z80 CPU emulation
+ * highly accurate VDP emulation (all rendering modes, HBLANK, DMA, FIFO, HV interrupts, undocumented registers, support for mid-frame & mid-line display changes…) 
+ * highly accurate SN76489, YM2612 & YM2413 emulation (FM synthesis is done at the original frequency, using FIR resampling) 
  * cycle-accurate chip synchronization (68000/Z80/YM2612/SN76489) 
  * basic hardware latency emulation (VDP/68k, Z80/68k) 
  * full overscan area emulation (horizontal & vertical color borders) 
@@ -47,7 +47,7 @@ http://gxdev.wordpress.com/files/2008/08/menacer.jpg
  * ROM bankswitch hardware (Super Street Fighter 2) 
  * SRAM bankswitch hardware (Phantasy Star 4, Legend of Thor, Sonic the Hedgehog 3)
  * all known Master System & Game Gear cartridge mappers
- * banking & copy protection devices used in all known unlicensed/pirate cartridges 
+ * banking & copy-protection hardware used in all known unlicensed/pirate cartridges 
  * native Game Genie & Action Replay hardware emulation 
  * Lock-On hardware emulation 
  * support for ROM image up to 10MB (Ultimate MK3 hack) 
