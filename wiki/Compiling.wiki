@@ -39,8 +39,8 @@ The DevkitPro download page provides all the precompiled libraries and include f
 
 The following libraries are required:
 
- * [http://sourceforge.net/projects/devkitpro/files/libogc/ libogc], from his [http://devkitpro.svn.sourceforge.net/viewvc/devkitpro/trunk/libogc/ SVN repository] 
- * [http://sourceforge.net/projects/devkitpro/files/libfat/ libfat], from his [http://devkitpro.svn.sourceforge.net/viewvc/devkitpro/trunk/libfat/ SVN repository]
+ * [http://sourceforge.net/projects/devkitpro/files/libogc/ libogc]
+ * [http://sourceforge.net/projects/devkitpro/files/libfat/ libfat]
  * libtremor: OGG music file support
  * libpng: PNG image file support
  * zlib: ZIP compressed file support
