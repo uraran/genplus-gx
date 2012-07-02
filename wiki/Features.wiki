@@ -3,23 +3,26 @@
 
 Genesis Plus main goal is to provide the most complete & accurate emulation of the Sega Genesis/Megadrive hardware.
 
-The original emulation core from [http://cgfm2.emuviews.com/ Charles Mac Donald] has been largely modified and emulation bugs tracked down to improve overall accuracy and therefore compatibility, as well as adding emulation of various peripherals and extra hardware.
+The original emulation core from [http://cgfm2.emuviews.com/ Charles Mac Donald] has been largely modified to improve overall accuracy and therefore compatibility, as well as adding emulation of various peripherals, cartridge and system hardware.
 
 http://gxdev.files.wordpress.com/2007/08/sega_megadrive_2.thumbnail.jpg
 
 === Very Accurate & Full Speed Sega 8-bit / 16-bit emulation ===
-
- * Accurate emulation of SG-1000, Mark-III, Master System (I & II), Game Gear, Genesis & Mega Drive hardware models (incl. backwards compatibility modes)
- * NTSC (60Hz) & PAL (50Hz) hardware emulation 
+ * accurate emulation of SG-1000, Mark-III, Master System (I & II), Game Gear, Genesis / Mega Drive, Sega / Mega CD hardware models (incl. backwards compatibility modes)
+ * NTSC (60Hz) & PAL (50Hz) hardware emulation
+ * accurate CDD/CDC/GFX/PCM chips emulation (Sega/Mega CD)
+ * Mode 1 cartridge support (Sega/Mega CD)
  * highly accurate 68000 & Z80 CPU emulation
- * highly accurate VDP emulation (all rendering modes, HBLANK, DMA, FIFO, HV interrupts, undocumented registers, support for mid-frame & mid-line display changes…) 
- * highly accurate SN76489, YM2612 & YM2413 emulation (FM synthesis is done at the original frequency, using FIR resampling) 
- * cycle-accurate chip synchronization (68000/Z80/YM2612/SN76489) 
+ * highly accurate VDP emulation (all rendering modes, HBLANK, DMA, FIFO, HV interrupts, undocumented registers, mid-line changes…) 
+ * cycle-accurate YM2612 & YM2413emulation (FM synthesis is done at the original frequency, using FIR resampling) 
+ * cycle-accurate chip synchronization (68000’s/Z80/YM2612/SN76489) 
  * basic hardware latency emulation (VDP/68k, Z80/68k) 
- * full overscan area emulation (horizontal & vertical color borders) 
- * internal OS ROM support, including accurate TMSS model emulation
- * Blargg's software NTSC filters support 
+ * full overscan area emulation (horizontal & vertical color borders)
+ * internal BOOT ROM support (Master System, Genesis / Mega Drive, Sega / Mega CD)
+ * optional TMSS hardware emulation (Genesis / Mega Drive)
+ * support for Blargg's software NTSC filters
  * preliminary PICO emulation 
+
 
 http://gxdev.files.wordpress.com/2007/12/street.gif?w=320&h=240
 
@@ -42,14 +45,15 @@ http://gxdev.wordpress.com/files/2008/08/menacer.jpg
 === Support for various cartridges extra hardware ===
  * SVP DSP (Virtua Racing) 
  * J-Cart adapter (Micro Machines & Pete Sampras series, Super Skidmarks) 
- * SRAM chips (up to 64kB) 
- * I2C (24Cxx) & MicroWire (93C46) serial EEPROM chips (all known chips) 
+ * Battery RAM / FeRAM (max. 64KB) 
+ * I2C (24Cxx) & MicroWire (93C46) EEPROM chips (all known chips)
+ * RAM cart (max. 512KB) (Sega/Mega CD)
  * ROM bankswitch hardware (Super Street Fighter 2) 
- * SRAM bankswitch hardware (Phantasy Star 4, Legend of Thor, Sonic the Hedgehog 3)
- * all known Master System & Game Gear cartridge mappers
- * banking & copy-protection hardware used in all known unlicensed/pirate cartridges 
- * native Game Genie & Action Replay hardware emulation 
- * Lock-On hardware emulation 
+ * Backup RAM bankswitch hardware (Phantasy Star 4, Legend of Thor, Sonic the Hedgehog 3) 
+ * banking & copy protection devices used in all known unlicensed/pirate cartridges
+ * all known Master System & Game Gear cartridge mappers (incl. unlicensed Korean mappers)
+ * Game Genie & Action Replay hardware emulation
+ * Sonic & Knuckles “Lock-On” hardware emulation
  * support for ROM image up to 10MB (Ultimate MK3 hack) 
 
 
@@ -60,29 +64,30 @@ http://gxdev.wordpress.com/files/2008/08/vracing.png
  * fully featured & optimized Graphical User Interface 
  * 48 kHz stereo sound
  * optimized GX video rendering engine 
- * 100% smooth video & audio synchronization
+ * 100% smooth & skipping-free audio/video synchronization
  * 50/60 Hz video output support 
  * original low-resolution video modes support (interlaced & non-interlaced)
  * high-resolution video modes support (480i/576i/480p)
  * hardware bilinear filtering 
  * configurable sound mixer (FM/PSG levels) and filtering (Low-Pass filter & 3-Band equalizer) 
  * 1~4 Players support 
- * automatic SRAM and State files loading/saving
+ * automatic Backup RAM and State files loading/saving
  * automatic ROM loading
- * ROM files loading history
- * load ROM files from SD/SDHC or DVD 
- * support for zipped (.zip), raw (.bin, .gen, .md, .sms, .gg, .sg) and interleaved (.smd, .mdx) ROM files 
- * internal ROM header information display
- * internal ROM screenshot capture 
- * Game Genie & Pro Action Replay codes support 
- * Cartridge "hot-swapping" 
+ * files loading history
+ * load files from SD/SDHC or DVD 
+ * support for zipped (.zip), raw (.bin, .gen, .md, .sms, .gg & .sg) and interleaved (.smd & .mdx) ROM files
+ * support for .iso & .bin CD image files
+ * game internal header information display
+ * embedded game screenshot function
+ * Game Genie & Pro Action Replay codes support through .pat files
+ * Cartridge "hot-swapping"
 
 
 === Wii extra features ===
  * up to 8 Players support 
  * Wii Remote, Nunchuk & Classic controllers support 
  * Wii Remote IR support for light guns
- * load ROM files from USB drives (USB2 support through IOS58) 
  * USB mouse support for mouse emulation
+ * load files from USB drives (USB2 support through IOS58) 
 
 http://gxdev.files.wordpress.com/2008/08/wiimote.jpg?w=240&h=241
