@@ -15,7 +15,7 @@ Lastly, if you have unsupported devices connected to the Game Cube ports or USB 
 Use the latest version of Homebrew Channel to launch the emulator. 
 
 ----
-==== _When I try to load ROM files from my SD card or USB drive, no files are found or an error message occurs._ ====
+==== _When I try to load game files from my SD card or USB drive, no files are found or an error message occurs._ ====
 
 Make sure you have at least one FAT (FAT16 or FAT32) partition on your device.
 ----
@@ -25,23 +25,23 @@ USB2 compatibility requires IOS58 to be installed in your system (it usually cam
 
 Please note that you cannot use both USB ports at the same time.
 ----
-==== _I can not load ROM files from the DVD, an error message occurs saying it can not be mounted or no valid DVD was found._ ====
+==== _I can not load game files from the DVD, an error message occurs saying it can not be mounted or no valid DVD was found._ ====
 
 First, make sure the DVD has been formatted in the expected format (ISO9960/Joliet). Then, your console must be able to read burned DVD: on a non-chipped Wii, you should use the Homebrew Channel and the provided meta.xml file, which enables full access to the DVD drive, without requiring a modchip.
 
 Please note that on most recent Wii models, it is impossible to enable DVD access anymore.
 ----
 
-==== _Well, I can access my device but I can't see all my ROM files, what is happening ?_ ====
+==== _Well, I can access my device but I can't see all my game files, what is happening ?_ ====
 
-Because of memory limitations, the emulator only lists up to 1000 ROM files per directory. This should be more than enough for anybody but if you have a larger ROM "collection", it is highly advised to arrange your files within subdirectories, which also increase the speed and the usability of the ROM browser.
+Because of memory limitations, the emulator only lists up to 1000 game files per directory. This should be more than enough for anybody but if you have a larger "collection", it is highly advised to arrange your files within subdirectories, which also increase the speed and the usability of the file browser.
 ----
 
-==== _When I load a ROM, nothing happen. I can return to the emulator menu but the game does not play or make the emulator crash._ ====
+==== _When I load a game, nothing happen. I can return to the emulator menu but the game does not play or make the emulator crash._ ====
 
-You probably tried to load an unsupported ROM file. The emulator only supports valid Genesis or Mega Drive (.bin, .gen, .md, .smd, .mdx), Master System (.sms), Game Gear (.gg), SG-1000 (.sg) or compressed (of any of the previous types) ROM files. Please not that only one file per .zip archive is supported and that .rar or .7z files are NOT supported.
+You probably tried to load an unsupported game file. The emulator only supports valid Genesis / Mega Drive (.bin, .gen, .md, .smd, .mdx), Master System (.sms), Game Gear (.gg), SG-1000 (.sg) ROM files or Sega/Mega CD image files (.bin, .iso, .cue). ROM files (not CD image files !) can be zipped but make sure there is only one file per .zip archive. Also note that .rar or .7z files are NOT supported.
 
-Lastly, make sure you are only using verified ROM dumps: bad dumps, hacked or fixed ROM files are subject to crash, even on real hardware, so just get ride of them. 
+Lastly, make sure you are only using verified dumps: bad dumps, hacked or fixed image files are subject to crash, even on real hardware, so just get ride of them. 
 ----
 
 ==== _I can hear the sound of the game I loaded but nothing is displayed but a black or distorted screen._ ====
@@ -64,9 +64,9 @@ Any additional Wii remote must be permanently registered in your Wii system sett
 Make sure you disable the "Hide Known Extension" feature in your OS then verify again if the required files have the proper name and extension.
 ----
 
-==== _How can I play 32X, Mega CD,... games in this emulator ?_ ====
+==== _How can I play 32X games in this emulator ?_ ====
 
-You can't. This program currently only emulates SG-1000, Master System, Game Gear, Genesis & Mega Drive hardware, including existing backward compatibility modes. Other systems might be added in the future but it's actually not high priority.
+You can't. This program currently only emulates SG-1000, Master System, Game Gear, Genesis / Mega Drive & Sega/Mega CD hardware, including existing backward compatibility modes. Other systems might be added in the future but it's actually not high priority.
 ----
 
 ==== _Hey, I have a very original idea. What about adding a cool feature like (insert anything) ? I think the emulator would be perfect with that feature_. ====
