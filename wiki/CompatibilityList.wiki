@@ -7,11 +7,14 @@ This means that all these games have been verified to be working without any gra
 
 On a side note, make sure you are always using good dumps: ROM files labeled as bad, "fixed" or hacked dumps (b1, f1, h1, ...), are known to cause issues, even on real hardware.
 
-*Backward compatibility notes:*
+== Sega/Mega CD games ==
 
-== Sega/Mega CD & Genesis / Mega Drive games ==
+Sega/Mega CD games are only compatible with Genesis / Mega Drive hardware. Sega/Mega CD add-on is automatically enabled when a valid CD image file is detected. 
 
-Sega/Mega CD & Genesis / Mega Drive games games are only compatible with Genesis / Mega Drive hardware.
+
+== Genesis / Mega Drive games ==
+
+Genesis / Mega Drive games are only compatible with Genesis / Mega Drive hardware. Some games might require different hardware to be enabled (PICO games or games only working with CD unit attached) and are auto-detected.
 
 
 == Game Gear games ==
