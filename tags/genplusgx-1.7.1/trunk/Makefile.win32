@@ -1,0 +1,151 @@
+
+# Makefile for genplus SDL
+#
+# (c) 1999, 2000, 2001, 2002, 2003  Charles MacDonald
+# modified by Eke-Eke <eke_eke31@yahoo.fr>
+#
+# Defines :
+# -DLSB_FIRST : for little endian systems.
+# -DBUILD_TABLES: do not use const tables for 68k instructions (obsolete)
+# -DLOGERROR  : enable message logging
+# -DLOGVDP    : enable VDP debug messages
+# -DLOG_SCD   : enable SCD debug messages
+# -DLOG_CDD   : enable CDD debug messages
+# -DLOG_CDC   : enable CDC debug messages
+# -DLOG_PCM   : enable PCM debug messages
+# -DLOGSOUND  : enable AUDIO debug messages
+# -D8BPP_RENDERING  - configure for 8-bit pixels (RGB332)
+# -D15BPP_RENDERING - configure for 15-bit pixels (RGB555)
+# -D16BPP_RENDERING - configure for 16-bit pixels (RGB565)
+# -D32BPP_RENDERING - configure for 32-bit pixels (RGB888)
+
+NAME	  = gen_sdl.exe
+
+CC        = gcc
+CFLAGS    = `sdl-config --cflags` -march=i686 -O6 -fomit-frame-pointer -Wall -Wno-strict-aliasing -ansi -std=c89 -pedantic-errors
+#-ansi -pedantic-errors
+#-g -ggdb -pg
+#-fomit-frame-pointer
+LDFLAGS   = 
+DEFINES   = -DLSB_FIRST -DUSE_16BPP_RENDERING
+  
+INCLUDES  = -I. -I.. -I../z80 -I../m68k -I../sound -I../input_hw -I../cart_hw -I../cd_hw -I../cart_hw/svp -I../ntsc
+LIBS	  = `sdl-config --libs` -lz -lm
+
+OBJECTS	=       obj/z80.o	
+
+OBJECTS	+=     	obj/m68kcpu.o \
+		obj/s68kcpu.o \
+
+OBJECTS	+=     	obj/genesis.o	 \
+		obj/vdp_ctrl.o	 \
+		obj/vdp_render.o \
+		obj/system.o     \
+		obj/io_ctrl.o	 \
+		obj/mem68k.o	 \
+		obj/memz80.o	 \
+		obj/membnk.o	 \
+		obj/state.o     
+
+OBJECTS	+=      obj/input.o	 \
+		obj/gamepad.o	 \
+		obj/lightgun.o	 \
+		obj/mouse.o	 \
+		obj/activator.o	 \
+		obj/xe_a1p.o	 \
+		obj/teamplayer.o \
+		obj/paddle.o	 \
+		obj/sportspad.o  \
+		obj/terebi_oekaki.o
+
+
+OBJECTS	+=      obj/sound.o	 \
+		obj/sn76489.o    \
+		obj/ym2413.o     \
+		obj/ym2612.o    
+
+OBJECTS	+=	obj/blip_buf.o 
+
+OBJECTS	+=	obj/eq.o \
+
+OBJECTS	+=      obj/sram.o       \
+		obj/svp.o	 \
+		obj/ssp16.o	 \
+		obj/ggenie.o	 \
+		obj/areplay.o	 \
+		obj/eeprom_93c.o \
+		obj/eeprom_i2c.o \
+		obj/eeprom_spi.o \
+		obj/md_cart.o	 \
+		obj/sms_cart.o	
+
+OBJECTS	+=      obj/scd.o	\
+		obj/cdd.o	\
+		obj/cdc.o	\
+		obj/gfx.o	\
+		obj/pcm.o	\
+		obj/cd_cart.o
+
+OBJECTS	+=	obj/main.o	\
+		obj/config.o	\
+		obj/error.o	\
+		obj/unzip.o     \
+		obj/fileio.o	\
+		obj/loadrom.o	
+
+OBJECTS	+=	obj/sms_ntsc.o	\
+		obj/md_ntsc.o
+
+OBJECTS	+=	obj/icon.o
+
+all: $(NAME)
+
+$(NAME): $(OBJECTS)
+	$(CC) $(LDFLAGS) $(OBJECTS) $(LIBS) -o $@ -Wl,-Map,genplus.map
+
+obj/%.o : 	../%.c ../%.h
+		$(CC) -c $(CFLAGS) $(INCLUDES) $(DEFINES) $< -o $@
+	        
+obj/%.o :	../asm/%.s
+		$(AS) $< -o $@
+	        
+obj/%.o :	../sound/%.c ../sound/%.h	        
+		$(CC) -c $(CFLAGS) $(INCLUDES) $(DEFINES) $< -o $@
+obj/%.o :	../sound/%.c      
+		$(CC) -c $(CFLAGS) $(INCLUDES) $(DEFINES) $< -o $@
+
+obj/%.o :	../input_hw/%.c ../input_hw/%.h	        
+		$(CC) -c $(CFLAGS) $(INCLUDES) $(DEFINES) $< -o $@
+
+obj/%.o :	../cart_hw/%.c ../cart_hw/%.h	        
+		$(CC) -c $(CFLAGS) $(INCLUDES) $(DEFINES) $< -o $@
+
+obj/%.o :	../cart_hw/svp/%.c      
+		$(CC) -c $(CFLAGS) $(INCLUDES) $(DEFINES) $< -o $@
+obj/%.o :	../cart_hw/svp/%.c ../cart_hw/svp/%.h	        
+		$(CC) -c $(CFLAGS) $(INCLUDES) $(DEFINES) $< -o $@
+
+obj/%.o :	../cd_hw/%.c      
+		$(CC) -c $(CFLAGS) $(INCLUDES) $(DEFINES) $< -o $@
+
+obj/%.o :	../z80/%.c ../z80/%.h	        
+		$(CC) -c $(CFLAGS) $(INCLUDES) $(DEFINES) $< -o $@
+
+obj/%.o :	../m68k/%.c   
+		$(CC) -c $(CFLAGS) $(INCLUDES) $(DEFINES) $< -o $@
+
+obj/%.o :	./%.c ./%.h	        
+		$(CC) -c $(CFLAGS) $(INCLUDES) $(DEFINES) $< -o $@
+
+obj/%.o :	../ntsc/%.c ../ntsc/%.h	        
+		$(CC) -c $(CFLAGS) $(INCLUDES) $(DEFINES) $< -o $@
+	        
+obj/icon.o :	
+		windres icon.rc $@
+
+pack	:
+		strip $(NAME)
+		upx -9 $(NAME)	        
+
+clean:
+	rm -f $(OBJECTS) $(NAME)
