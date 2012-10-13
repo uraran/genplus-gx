@@ -49,6 +49,22 @@ Lastly, make sure you are only using verified dumps: bad dumps, hacked or fixed 
 You are most likely using invalid video settings. Try deleting the configuration file (config.ini) and restart the emulator. If that does not help, try changing the following options, Display and TV Mode, and see if that fixes the issue.
 ----
 
+==== _I try to load a CD game but there is no audio at all, only sound effects most of the time._ ====
+
+It means you did not load a CD image with valid CD-DA tracks informations. You can confirm that by entering the CD Boot menu when resetting the game (press A to enter Boot menu) and seeing the number of tracks is stuck to 99 (max). Keep in mind that if you are using an ISO file with external audio files, only 44100hz stereo 16-bit WAV audio files are supported and you must either name them accordingly or use an associated CUE file. When using a BIN file, an associated CUE file is needed if you want to hear audio tracks. Have a look in the README for more details about supported CD image & audio tracks format and how you should load them. 
+----
+
+==== _Well, I can hear audio tracks and the CD Boot menu show them all but the sound is buggy/scratched/distorted._ ====
+
+It is most likely due to audio files themselves. Play them on a computer with another media player to check if there are correct. Many CD rips you can find online are either corrupt or incomplete, you might want to use verified good disc dumps.
+----
+
+==== _When playing CD games, I randomly experiment some slowdowns or short freezes with audio and/or video._ ====
+
+Sega/Mega CD emulation is quite CPU consuming and all in all, there is only short time allowed to the emulator to read data from the disc image. Since disc images are continuously accessed from the loading device (SD, USB, DVD), slow or inconsistent device accesses will likely cause bottlenecks in emulator processing. There is no much solutions beside using faster devices and, for USB drives, to make sure IOS58 is loaded when the emulator starts and USB2 mode is enabled.
+
+----
+
 ==== _How can I use my Classic Controller, Nunchuk, etc ? It is connected to my Wii Remote but it does not respond in games._ ====
 
 You must first configure the type of controller you want to use for each player. Go to controller settings, pick one of the player and change the affected device. Don't forget to change it back if you disconnect the expansion controller.
