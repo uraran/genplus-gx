@@ -51,6 +51,7 @@ http://gxdev.wordpress.com/files/2009/11/landstalker-le-tresor-du-roi-nole-franc
 http://gxdev.wordpress.com/files/2009/11/james-pond-3-operation-starfish-usa-europe.png
 http://gxdev.wordpress.com/files/2009/11/legend-of-galahad-the-usa-europe.png
 http://gxdev.wordpress.com/files/2009/11/phantasy-star-iv-usa.png
+http://gxdev.files.wordpress.com/2012/11/pier-solar-the-great-architect-t-574013-00-unl.png
 http://gxdev.wordpress.com/files/2009/11/pocahontas-usa.png
 http://gxdev.wordpress.com/files/2009/11/shining-force-usa.png
 http://gxdev.wordpress.com/files/2009/11/tinhead-usa.png
@@ -80,6 +81,9 @@ http://gxdev.wordpress.com/files/2009/12/general-chaos-usa-europe.png
 http://gxdev.wordpress.com/files/2009/12/golden-axe-ii-world.png
 http://gxdev.wordpress.com/files/2009/12/immortal-the-usa-europe.png
 http://gxdev.wordpress.com/files/2009/12/langrisser-ii-j-v1-1-t-eng.png
+http://gxdev.files.wordpress.com/2012/11/beggar-prince-unl.png
+http://gxdev.files.wordpress.com/2012/11/legend-of-wukong-unl.png
+http://gxdev.files.wordpress.com/2012/11/star-odyssey-unl.png
 http://gxdev.wordpress.com/files/2009/12/micro-machines-2-turbo-tournament-europe-j-cart.png
 http://gxdev.wordpress.com/files/2009/12/mortal-kombat-ii-world.png
 http://gxdev.wordpress.com/files/2009/12/nba-jam-tournament-edition-world.png
@@ -100,8 +104,8 @@ http://gxdev.wordpress.com/files/2009/12/splatterhouse-3-usa.png
 http://gxdev.wordpress.com/files/2009/12/street-fighter-ii-special-champion-edition-usa.png
 http://gxdev.wordpress.com/files/2009/12/streets-of-rage-2-usa.png
 http://gxdev.wordpress.com/files/2009/12/super-donkey-kong-99-unl.png
+http://gxdev.files.wordpress.com/2012/11/super-mario-world-64-unl__0.png
 http://gxdev.wordpress.com/files/2009/12/super-fantasy-zone-japan.png
-http://gxdev.wordpress.com/files/2009/12/super-mario-2-1998-unl.png
 http://gxdev.wordpress.com/files/2009/12/super-street-fighter-ii-the-new-challengers-usa.png
 http://gxdev.wordpress.com/files/2009/12/trouble-shooter-usa.png
 http://gxdev.wordpress.com/files/2009/12/twinkle-tale-j-t-eng.png
