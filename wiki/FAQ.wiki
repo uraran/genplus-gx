@@ -46,7 +46,7 @@ Lastly, make sure you are only using verified dumps: bad dumps, hacked or fixed 
 
 ==== _I'm trying to load a CD game but I got an error message telling me the file is too big_ ====
 
-This happen if the file you are trying to load is not recognized as a valid Sega / Mega CD image. Please make sure you are loading .iso or .bin files are supported (or a .cue file pointing to a valid .iso / .bin file), compressed image (such as .rar, .zip, .7z, etc) are NOT supported for CD emulation, you must decompress them first. Also make sure the game you are trying to load is really a Sega / Mega CD game (you wouldn't believe the amount of people trying to load Saturn games)
+This happen if the file you are trying to load is not recognized as a valid Sega / Mega CD image. Please make sure you are only loading valid .iso or .bin files (or a .cue file pointing to a valid .iso / .bin file). Compressed image (such as .rar, .zip, .7z, etc) are NOT supported for CD emulation, you must decompress them first. Also make sure the game you are trying to load is really a Sega / Mega CD game (you wouldn't believe the amount of people trying to load Saturn games !)
  
 ----
 
