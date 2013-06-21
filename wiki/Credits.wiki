@@ -12,6 +12,7 @@
  * SVP core by [http://notaz.gp2x.de/svp.php Notaz]
  * Blip Buffer library & NTSC Video filter by Shay Green ([http://www.fly.net/~ant/libs Blargg])
  * 3-Band EQ implementation by [http://www.musicdsp.org/archive.php?classid=3#236 Neil C ]
+ * [http://www.freshports.org/audio/libtremor libtremor] by xinph.org
 
 ==== additional thanks to ====
  * [http://gendev.spritesmind.net/forum/viewtopic.php?t=386 Nemesis], for having tested and documented many of the unknown YM2612 features and helping out improving FM emulation.
@@ -37,7 +38,7 @@
  * [http://hackmii.com/2008/08/libdi-and-the-dvdx-installer/ libDI] by Erant
  * [http://www.devkitpro.org/category/libogc/ libOGC] by Shagkur & many others
  * asndlib and OGG player by [http://www.entuwii.net/foro/viewtopic.php?f=6&t=87 Hermes] incl. some fixes by [http://code.google.com/u/dborth/ Tantric]
- * [http://www.libpng.org/pub/png/libpng.html libpng] and [http://www.freshports.org/audio/libtremor libtremor] by their respective authors
+ * [http://www.libpng.org/pub/png/libpng.html libpng] by various authors
 
 
 
