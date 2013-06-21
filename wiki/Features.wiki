@@ -26,7 +26,7 @@ http://gxdev.files.wordpress.com/2007/08/sega_megadrive_2.thumbnail.jpg
  * support for Blargg's software NTSC filters
  * preliminary PICO emulation
  * support for raw (.bin, .gen, .md, .sms, .gg & .sg) and interleaved (.smd & .mdx) ROM files
- * support for CUE+BIN & ISO+WAV CD image files
+ * support for CUE+BIN, ISO+OGG & ISO+WAV CD image files
 
 
 http://gxdev.files.wordpress.com/2007/12/street.gif?w=320&h=240
