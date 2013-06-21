@@ -12,7 +12,7 @@
  * SVP core by [http://notaz.gp2x.de/svp.php Notaz]
  * Blip Buffer library & NTSC Video filter by Shay Green ([http://www.fly.net/~ant/libs Blargg])
  * 3-Band EQ implementation by [http://www.musicdsp.org/archive.php?classid=3#236 Neil C ]
- * [http://www.freshports.org/audio/libtremor libtremor] by xinph.org
+ * [http://www.freshports.org/audio/libtremor libtremor] by xiph.org
 
 ==== additional thanks to ====
  * [http://gendev.spritesmind.net/forum/viewtopic.php?t=386 Nemesis], for having tested and documented many of the unknown YM2612 features and helping out improving FM emulation.
