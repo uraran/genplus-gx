@@ -36,6 +36,7 @@ Once you are done, if you haven't one yet, install a [http://en.wikipedia.org/wi
 Finally, go into genplus-gx/trunk/ and run the following commands :
 
 make -f Makefile.wii
+
 make -f Makefile.gc
 
 You should obtain two .dol files genplus_wii.dol and genplus_cube.dol which corresponds respectively to Wii and Gamecube version (NB: the Wii version should be manually renamed to boot.dol to be used with the Homebrew Channel).
