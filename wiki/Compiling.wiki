@@ -39,7 +39,7 @@ make -f Makefile.wii
 
 make -f Makefile.gc
 
-You should obtain two .dol files genplus_wii.dol and genplus_cube.dol which corresponds respectively to Wii and Gamecube version (NB: the Wii version should be manually renamed to boot.dol to be used with the Homebrew Channel).
+You should obtain two .dol files, genplus_wii.dol and genplus_cube.dol which correspond respectively to Wii and Gamecube versions (NB: the Wii version should be manually renamed to boot.dol to be used with the Homebrew Channel).
 
 The DevkitPro download page provides all the precompiled libraries and include files required to compile the current source code of Genesis Plus GX. However, you could also get the current source code of the libraries, compile them yourself and install as specified (generally *make* then *make install*).
 
