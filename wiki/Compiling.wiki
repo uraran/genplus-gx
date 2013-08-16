@@ -34,6 +34,7 @@ First, you will have to download and install the following tools/libraries:
 Once you are done, if you haven't one yet, install a [http://en.wikipedia.org/wiki/Comparison_of_Subversion_clients SVN client] and get the current [http://code.google.com/p/genplus-gx/source/checkout genplus-gx] source code from SVN.
 
 Finally, go into genplus-gx/trunk/ and run the following commands :
+
 make -f Makefile.wii
 make -f Makefile.gc
 
