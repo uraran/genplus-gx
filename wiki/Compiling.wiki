@@ -33,7 +33,11 @@ First, you will have to download and install the following tools/libraries:
 
 Once you are done, if you haven't one yet, install a [http://en.wikipedia.org/wiki/Comparison_of_Subversion_clients SVN client] and get the current [http://code.google.com/p/genplus-gx/source/checkout genplus-gx] source code from SVN.
 
-Finally, go into genplus-gx/trunk/ and run compile_all.bat.
+Finally, go into genplus-gx/trunk/ and run the following commands :
+make -f Makefile.wii
+make -f Makefile.gc
+
+You should obtain two .dol files genplus_wii.dol and genplus_cube.dol which corresponds respectively to Wii and Gamecube version (NB: the Wii version should be manually renamed to boot.dol to be used with the Homebrew Channel).
 
 The DevkitPro download page provides all the precompiled libraries and include files required to compile the current source code of Genesis Plus GX. However, you could also get the current source code of the libraries, compile them yourself and install as specified (generally *make* then *make install*).
 
