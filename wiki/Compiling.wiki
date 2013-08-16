@@ -23,7 +23,7 @@ However, I would appreciate if you *respect* the following points:
 First, you will have to download and install the following tools/libraries:
 
  # from [http://sourceforge.net/projects/devkitpro/files/devkitPPC here], the last version of DevkitPPC. Windows user should directly run the Automated Installer. During installation, make sure you get libogc and libfat libraries installed as well. They should be installed in C:/devkitpro/libogc/
- # from [http://sourceforge.net/projects/devkitpro/files/portlibs here], the following libraries: zlib, libpng & libtremor. Make sure you pick the precompiled PPC versions and extract them in C:/devkitpro/portlibs/ppc/. You should have the following directories once extracted:
+ # from [http://sourceforge.net/projects/devkitpro/files/portlibs/ppc here], the following libraries: zlib, libpng & libtremor. Make sure you pick the precompiled PPC versions and extract them in C:/devkitpro/portlibs/ppc/. You should have the following directories once extracted:
 
  * /devkitpro/portlibs/ppc/include
 
