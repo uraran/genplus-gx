@@ -43,6 +43,7 @@ http://gxdev.files.wordpress.com/2007/12/street.gif?w=320&h=240
  * Konami Justifiers
  * Sega Activator
  * XE-1AP analog controller
+ * Furrtek's homemade Master System multitap 
 
 http://gxdev.wordpress.com/files/2008/08/menacer.jpg
 
